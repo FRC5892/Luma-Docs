@@ -42,13 +42,14 @@ extra:
       link: https://github.com/FRC5892/5892-Docs
   announcement: >-
     These docs are an unofficial FRC 5892 community project and are
-    <strong>not affiliated with any organizations or companies mentioned </strong>.
+    <strong>not affiliated with any organizations or companies mentioned</strong>.
 
 extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/persistent-tasklist.js
+  - javascripts/external-links.js
 
 markdown_extensions:
   - admonition

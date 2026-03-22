@@ -175,7 +175,14 @@ kbd {
 .md-typeset details {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
-  border-width: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(17, 24, 39, 0.16);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset details {
+  border-color: rgba(255, 184, 101, 0.32);
 }
 
 .md-typeset .admonition-title,
