@@ -25,6 +25,12 @@ Recommended wiring path:
 
 - **radio -> switch -> coprocessor(s) + laptop**
 
+!!! note "Using LumaSwitch"
+    If you are using LumaSwitch, use the non-PoE uplink port for the radio connection and only
+    install PoE fuses on ports that should provide passive PoE.
+
+For full switch specs/mounting/wiring details, see the [LumaSwitch Guide](lumaswitch.md).
+
 ![Example wiring using a network switch and newer radio](../assets/networking-diagram-vividhosting.webp){ width="900" }
 
 ### Old Radio (Pre-2025)

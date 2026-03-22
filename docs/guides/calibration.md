@@ -52,6 +52,10 @@ Without calibration, AprilTag pose estimates will be inaccurate.
     For full wiring and networking setup (radio wiring, hostname, static IP, port forwarding,
     stream ports, and SSH), see the **[Luma Networking Guide](networking.md)**.
 
+!!! tip "If You Are Using LumaSwitch"
+    On power-up, LumaSwitch Ethernet status lights should blink once. The red PoE LED indicates
+    PoE is active on fused PoE ports.
+
 ### Step 2 — Access the PhotonVision UI
 
 1. Open a browser and navigate to the PhotonVision dashboard.

@@ -93,6 +93,7 @@ nav:
       - Prerequisites: getting-started/prerequisites.md
   - Guides:
       - Flashing: guides/flashing.md
+      - LumaSwitch: guides/lumaswitch.md
       - Networking: guides/networking.md
       - Calibration: guides/calibration.md
       - Troubleshooting: guides/troubleshooting.md

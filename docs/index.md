@@ -31,6 +31,12 @@ This guide was made out of a love of efficient and accurate documentaion, and a 
     Step-by-step instructions for flashing the latest PhotonVision image to your
     Luma P1 camera.
 
+-   :material-ethernet: **[LumaSwitch Guide](guides/lumaswitch.md)**
+
+    ---
+
+    Hardware specs, mounting, and wiring guidance for using LumaSwitch on your robot.
+
 -   :material-tune: **[Calibration Guide](guides/calibration.md)**
 
     ---
