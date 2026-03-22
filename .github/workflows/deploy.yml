@@ -32,6 +32,12 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      - name: Download Luma logo
+        run: |
+          mkdir -p docs/assets
+          curl -sL "https://docs.luma.vision/img/LumaLogoWhite.png" \
+            -o docs/assets/logo.png
+
       - name: Install dependencies
         run: pip install -r requirements.txt
 
