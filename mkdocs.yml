@@ -10,8 +10,8 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/logo-5892.png
+  favicon: assets/logo-5892.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
