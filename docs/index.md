@@ -78,4 +78,4 @@ Key highlights:
 
 ---
 
-*These docs are a FRC 5892 community passion project. Contributions are welcome!*
+*These docs are a passion project of students on FRC 5892. Contributions are welcome!*
