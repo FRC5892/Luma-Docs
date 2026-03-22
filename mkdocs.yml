@@ -1,0 +1,100 @@
+site_name: Luma P1 Docs
+site_url: https://frc-lumadocs.com/
+site_description: >-
+  Community documentation for the Luma P1 FRC vision camera — a FRC 5892
+  passion project. Not affiliated with Luma.
+site_author: FRC Team 5892
+repo_name: FRC5892/Luma-Docs
+repo_url: https://github.com/FRC5892/Luma-Docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - announce.dismiss
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/FRC5892/Luma-Docs
+  announcement: >-
+    These docs are an unofficial FRC 5892 community project and are
+    <strong>not affiliated with Luma</strong>. For the official docs, visit
+    <a href="https://docs.luma.vision/p1/" target="_blank">docs.luma.vision/p1</a>.
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - What is Luma?: getting-started/what-is-luma.md
+      - Prerequisites: getting-started/prerequisites.md
+  - Guides:
+      - Flashing: guides/flashing.md
+      - Calibration: guides/calibration.md
+  - Contributing: contributing.md
