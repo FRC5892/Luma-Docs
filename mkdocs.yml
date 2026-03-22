@@ -1,8 +1,7 @@
 site_name: 5892-Docs
 site_url: https://frc5892.github.io
-site_description: Community documentation by FRC Team 5892
-  Community documentation for the Luma P1 FRC vision camera — a FRC 5892
-  passion project. Not affiliated with Luma.
+site_description: >-
+  Community documentation by FRC Team 5892 for robotics hardware and software guides.
 site_author: FRC Team 5892
 repo_name: FRC5892/5892-Docs
 repo_url: https://github.com/FRC5892/5892-Docs
