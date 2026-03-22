@@ -38,13 +38,6 @@ This guide was made out of a love of efficient and accurate documentation, and a
 
 ---
 
-## LoggedTalonFX
-
-This section is currently a placeholder while documentation is being drafted.
-See [LoggedTalonFX Placeholder](loggedtalonfx/placeholder.md).
-
----
-
 ## Official Resources
 
 | Resource | Link |
