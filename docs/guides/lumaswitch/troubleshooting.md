@@ -22,5 +22,5 @@ This page covers common LumaSwitch setup and power-distribution issues.
 
 ## Next Steps
 
-- For full robot network setup, see [Luma Networking](../networking.md)
-- For camera setup after network is working, see [Calibration](../calibration.md)
+- For full robot network setup, see [Luma Networking](../../p1/networking.md)
+- For camera setup after network is working, see [Calibration](../../p1/calibration.md)

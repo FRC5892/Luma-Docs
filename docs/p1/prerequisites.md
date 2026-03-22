@@ -78,7 +78,7 @@ FRC Game Tools includes the Driver Station and other utilities needed during set
 
 ## Summary Checklist
 
-Before proceeding to the [Flashing Guide](../guides/flashing.md), confirm you have everything:
+Before proceeding to the [Flashing Guide](flashing.md), confirm you have everything:
 
 - [x] Luma P1 camera(s)
 - [x] USB-C cable
@@ -87,4 +87,4 @@ Before proceeding to the [Flashing Guide](../guides/flashing.md), confirm you ha
 - [x] Latest PhotonVision image for Luma P1 downloaded
 - [x] Programming laptop ready
 
-Once all boxes are checked, head over to **[Flashing your Luma P1](../guides/flashing.md)**.
+Once all boxes are checked, head over to **[Flashing your Luma P1](flashing.md)**.

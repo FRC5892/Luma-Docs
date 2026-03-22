@@ -18,13 +18,13 @@ This guide was made out of a love of efficient and accurate documentaion, and a 
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: **[Getting Started](getting-started/luma-p1-overview.md)**
+-   :material-rocket-launch: **[Getting Started](p1/overview.md)**
 
     ---
 
     New to Luma? Start here. Learn about the P1, Luma's flagship product, what it is, how it compares to other vision solutions, and what you need to get set up.
 
--   :material-flash: **[Flashing Guide](guides/flashing.md)**
+-   :material-flash: **[Flashing Guide](p1/flashing.md)**
 
     ---
 
@@ -37,7 +37,7 @@ This guide was made out of a love of efficient and accurate documentaion, and a 
 
     Hardware specs, mounting, and wiring guidance for using LumaSwitch on your robot.
 
--   :material-tune: **[Calibration Guide](guides/calibration.md)**
+-   :material-tune: **[Calibration Guide](p1/calibration.md)**
 
     ---
 

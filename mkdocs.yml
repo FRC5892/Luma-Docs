@@ -88,17 +88,17 @@ plugins:
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Luma P1 Overview: getting-started/luma-p1-overview.md
-      - Prerequisites: getting-started/prerequisites.md
+  - P1:
+    - Overview: p1/overview.md
+    - Prerequisites: p1/prerequisites.md
+    - Flashing: p1/flashing.md
+    - Networking: p1/networking.md
+    - Calibration: p1/calibration.md
+    - Troubleshooting: p1/troubleshooting.md
   - Guides:
-      - Flashing: guides/flashing.md
       - LumaSwitch:
         - Overview: guides/lumaswitch/overview.md
         - Mounting: guides/lumaswitch/mounting.md
         - Wiring: guides/lumaswitch/wiring.md
         - Troubleshooting: guides/lumaswitch/troubleshooting.md
-      - Networking: guides/networking.md
-      - Calibration: guides/calibration.md
-      - Troubleshooting: guides/troubleshooting.md
   - Contributing: contributing.md

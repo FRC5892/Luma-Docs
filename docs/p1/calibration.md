@@ -7,7 +7,7 @@ This guide walks you through calibrating your Luma P1 camera for accurate vision
     [docs.luma.vision/p1](https://docs.luma.vision/p1/).
 
 !!! warning "Read Before You Start"
-    Make sure you have completed all steps on the [Prerequisites](../getting-started/prerequisites.md)
+    Make sure you have completed all steps on the [Prerequisites](prerequisites.md)
     page and that your cameras have been [flashed](flashing.md) before continuing.
 
 ---

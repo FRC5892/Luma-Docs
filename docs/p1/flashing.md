@@ -7,7 +7,7 @@ This guide walks you through flashing the latest PhotonVision image onto your Lu
     [docs.luma.vision/p1](https://docs.luma.vision/p1/).
 
 !!! warning "Read Before You Start"
-    Make sure you have completed all steps on the [Prerequisites](../getting-started/prerequisites.md)
+    Make sure you have completed all steps on the [Prerequisites](prerequisites.md)
     page before continuing.
 
 ---

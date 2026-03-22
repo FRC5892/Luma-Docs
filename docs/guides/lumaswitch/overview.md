@@ -41,4 +41,4 @@ per-port passive PoE output for supported devices such as Luma P1.
 ## Next Steps
 
 After reviewing the hardware basics, continue with [Wiring](wiring.md) and then
-[Luma Networking](../networking.md).
+[Luma Networking](../../p1/networking.md).

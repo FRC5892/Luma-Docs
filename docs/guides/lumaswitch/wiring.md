@@ -44,4 +44,4 @@ When LumaSwitch powers on, Ethernet status LEDs should blink once.
 
 ## Next Steps
 
-Continue with [Luma Networking](../networking.md).
+Continue with [Luma Networking](../../p1/networking.md).
