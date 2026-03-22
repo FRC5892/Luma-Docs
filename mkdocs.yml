@@ -5,7 +5,7 @@ site_description: Community documentation by FRC Team 5892
   passion project. Not affiliated with Luma.
 site_author: FRC Team 5892
 repo_name: FRC5892/Luma-Docs
-repo_url: https://github.com/FRC5892/Luma-Docs
+repo_url: https://github.com/FRC5892/5892-Docs
 edit_uri: edit/main/docs/
 
 theme:
