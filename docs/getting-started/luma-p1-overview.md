@@ -38,7 +38,7 @@ similar to running a Limelight with PhotonVision. The key differences are:
   object tracking, and WPILib integration.
 - **Raspberry Pi CM5** — Powerful, well-supported hardware with an active community.
 - **Affordable** — Built with FRC team budgets in mind.
-- **FRC 2026 ready** — Designed and tested for Reefscape.
+- **FRC 2026 ready** — Designed for the 2026 FRC season.
 
 ## How It Works (High Level)
 
