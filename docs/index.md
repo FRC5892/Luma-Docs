@@ -1,4 +1,4 @@
-# Welcome to Luma P1 Docs
+# Welcome to Luma Docs
 
 !!! warning "Unofficial Community Resource"
     These docs are an **unofficial** passion project by [FRC Team 5892](https://github.com/FRC5892).
@@ -9,12 +9,10 @@
 
 ## What Is This Site?
 
-This site is a community-written reference for setting up, flashing, calibrating, and using the
-**Luma P1** FRC vision camera on your robot. It was created by FRC Team 5892 as a resource for
-the FIRST Robotics community during the 2026 season and beyond.
+This site is a community-written reference for setting up, flashing, calibrating, and using Luma hardware on your robot, including the
+**Luma P1** vision cmaera. It was created by FRC Team 5892 as a resource for the FIRST Robotics community during the 2026 season and beyond.
 
-Think of it as a field guide — step-by-step instructions, tips, and gotchas collected from
-real-world use by FRC teams.
+This guide was made out of a love of accurate documentaion and things working the right way the first time. It is maintained entirely by team members and outside contributors.
 
 ## Quick Navigation
 
@@ -24,8 +22,7 @@ real-world use by FRC teams.
 
     ---
 
-    New to Luma P1? Start here. Learn what it is, how it compares to other vision
-    solutions, and what you need to get set up.
+    New to Luma? Start here. Learn about the P1, Luma's flagship product, what it is, how it compares to other vision solutions, and what you need to get set up.
 
 -   :material-flash: **[Flashing Guide](guides/flashing.md)**
 
@@ -53,9 +50,9 @@ real-world use by FRC teams.
 
 ## About the Luma P1
 
-The Luma P1 is an affordable vision co-processor released for the **2026 FRC Reefscape season**.
+The Luma P1 is an affordable vision co-processor released for the **2026 FRC REBUILT season**.
 It pairs a camera with a Raspberry Pi CM5 co-processor and runs
-[PhotonVision](https://photonvision.org/) out of the box.
+[PhotonVision](https://photonvision.org/), a free open source vision software for FRC.
 
 Key highlights:
 
