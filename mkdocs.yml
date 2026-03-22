@@ -42,8 +42,7 @@ extra:
       link: https://github.com/FRC5892/5892-Docs
   announcement: >-
     These docs are an unofficial FRC 5892 community project and are
-    <strong>not affiliated with Luma</strong>. For the official docs, visit
-    <a href="https://docs.luma.vision/p1/" target="_blank">docs.luma.vision/p1</a>.
+    <strong>not affiliated with any organizations or companies mentioned </strong>.
 
 extra_css:
   - stylesheets/extra.css
