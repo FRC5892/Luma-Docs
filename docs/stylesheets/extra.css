@@ -243,6 +243,7 @@ kbd {
 .md-typeset .task-item-checked span,
 .md-typeset .task-item-checked {
   text-decoration: line-through;
+  text-decoration-thickness: 4px;
   text-decoration-color: rgba(255, 147, 28, 0.5);
 }
 
@@ -264,6 +265,7 @@ kbd {
 .md-typeset .guide-step-checked {
   opacity: 0.86;
   text-decoration: line-through;
+  text-decoration-thickness: 4px;
   text-decoration-color: rgba(255, 147, 28, 0.55);
 }
 
