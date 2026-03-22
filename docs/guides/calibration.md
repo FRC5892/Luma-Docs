@@ -53,9 +53,9 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 2. You should see the PhotonVision interface with a live camera feed.
 
 !!! note
-    See the [official Luma docs](https://docs.luma.vision/p1/) or the
+    See the
     [PhotonVision docs](https://docs.photonvision.org/) for the exact default IP or hostname
-    for your device.
+    for your device, as well as troubleshooting instructions.
 
 ### Step 3 — Open the Calibration Tool
 
@@ -66,10 +66,11 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 ### Step 4 — Capture Calibration Images
 
 1. Select the appropriate **calibration board** type (e.g., chessboard, charuco).
-2. Have your second person **hold the calibration board** flat and steady.
-3. Move the camera (or the board) to **many different angles and distances**,
+2. Enter dimensions listed on bottom of board (you will have to convert to inches).
+3. Have your second person **hold the calibration board** flat and steady.
+4. Move the camera (or the board) to **many different angles and distances**,
    capturing images that cover the full frame — corners, edges, and center.
-4. Capture at least **25–30 images** for a good calibration. More is better.
+5. Capture a minimum of 12 images. **25–30 images** is better for a good calibration. More is better. Your goal is to blot out the feed with the multi colored dots. 
 
 !!! tip "Tips for a Good Calibration"
     - Cover the **entire field of view** — don't just use the center.
