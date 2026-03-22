@@ -21,6 +21,35 @@
     return path + "::guide-step::" + indexOnPage + "::" + labelText;
   }
 
+  function isStepTrackingPage() {
+    var path = (window.location.pathname || "").toLowerCase();
+    return (
+      path.indexOf("/p1/flashing") !== -1 ||
+      path.indexOf("/p1/calibration") !== -1
+    );
+  }
+
+  function getStepSectionLists() {
+    var headings = document.querySelectorAll(".md-content .md-typeset h2");
+    var lists = [];
+
+    headings.forEach(function (heading) {
+      if (normalizeText(heading.textContent).toLowerCase() !== "steps") {
+        return;
+      }
+
+      var node = heading.nextElementSibling;
+      while (node && node.tagName !== "H2") {
+        if (node.tagName === "OL") {
+          lists.push(node);
+        }
+        node = node.nextElementSibling;
+      }
+    });
+
+    return lists;
+  }
+
   function ensureTrackingNote(listElement, noteText, noteType) {
     if (!listElement || !listElement.parentElement) {
       return;
@@ -95,7 +124,19 @@
   }
 
   function enablePersistentGuideSteps() {
-    var steps = document.querySelectorAll(".md-content .md-typeset ol > li");
+    if (!isStepTrackingPage()) {
+      return;
+    }
+
+    var stepLists = getStepSectionLists();
+    var steps = [];
+
+    stepLists.forEach(function (stepList) {
+      stepList.querySelectorAll(":scope > li").forEach(function (item) {
+        steps.push(item);
+      });
+      ensureTrackingNote(stepList, STEP_NOTE_TEXT, "step");
+    });
 
     steps.forEach(function (stepItem, indexOnPage) {
       if (stepItem.closest(".task-list")) {
@@ -124,10 +165,6 @@
         updateStepVisualState(stepItem, nowComplete);
       });
 
-      var parentList = stepItem.closest("ol");
-      if (parentList) {
-        ensureTrackingNote(parentList, STEP_NOTE_TEXT, "step");
-      }
     });
   }
 
