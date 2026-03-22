@@ -111,6 +111,25 @@
 .md-header__button.md-logo svg,
 .md-nav__button.md-logo img,
 .md-nav__button.md-logo svg {
-  height: 2rem;
+  height: 2.5rem;
   width: auto;
+}
+
+/* ----------  Header title sizing  -------------------------- */
+.md-header__title {
+  font-size: 1.1rem;
+}
+
+.md-header__topic {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 76.234375em) {
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg,
+  .md-nav__button.md-logo img,
+  .md-nav__button.md-logo svg {
+    height: 2.2rem;
+  }
 }
