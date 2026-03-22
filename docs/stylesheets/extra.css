@@ -1,48 +1,115 @@
 /* ============================================================
-   Luma P1 Docs — Extra Styles
+   Luma Docs - Professional UI Refresh
    ============================================================ */
 
-/* ----------  Brand colours  -------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=JetBrains+Mono:wght@500;700&display=swap");
+
 :root {
   --team-brand: #ff931c;
-  --team-brand-light: #ff931c;
-  --team-accent: #ff931c;
-  --team-warn-bg: #ff931c;
-  --team-warn-border: #ff931c;
+  --team-brand-strong: #ff931c;
+  --team-brand-soft: #ffd8b0;
+  --team-accent: #f7a23f;
+
+  --radius-sm: 0.45rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+  --shadow-sm: 0 6px 18px rgba(17, 24, 39, 0.08);
+  --shadow-md: 0 12px 28px rgba(17, 24, 39, 0.14);
 }
 
-/* Make Material use the brand colors declared above */
-[data-md-color-scheme="default"],
-[data-md-color-scheme="slate"] {
+[data-md-color-scheme="default"] {
+  --md-default-bg-color: #fbfbfc;
+  --md-default-fg-color: #1f2937;
+  --md-default-fg-color--light: #4b5563;
+  --md-default-fg-color--lighter: #6b7280;
   --md-primary-fg-color: var(--team-brand);
-  --md-primary-fg-color--light: var(--team-brand-light);
-  --md-primary-fg-color--dark: var(--team-brand);
+  --md-primary-fg-color--dark: var(--team-brand-strong);
+  --md-primary-fg-color--light: #ffb25e;
   --md-accent-fg-color: var(--team-accent);
+  --md-code-bg-color: #f3f4f6;
+  --md-code-fg-color: #172033;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #ff9c34;
+  --md-primary-fg-color--dark: #ff9c34;
+  --md-primary-fg-color--light: #ffc07a;
+  --md-accent-fg-color: #ffb865;
+  --md-code-bg-color: #1f2430;
+  --md-code-fg-color: #f2f4f8;
 }
 
 [data-md-color-primary="custom"] {
   --md-primary-fg-color: var(--team-brand);
-  --md-primary-fg-color--light: var(--team-brand-light);
-  --md-primary-fg-color--dark: var(--team-brand);
+  --md-primary-fg-color--light: #ffb25e;
+  --md-primary-fg-color--dark: var(--team-brand-strong);
 }
 
 [data-md-color-accent="custom"] {
   --md-accent-fg-color: var(--team-accent);
 }
 
-/* ----------  Announcement / dismissible banner  ----------- */
+body,
+input,
+button,
+select,
+textarea {
+  font-family: "Manrope", "Segoe UI", sans-serif;
+}
+
+code,
+pre,
+kbd {
+  font-family: "JetBrains Mono", "Roboto Mono", monospace;
+}
+
+.md-main {
+  background:
+    radial-gradient(circle at 95% 3%, rgba(255, 147, 28, 0.08), transparent 32%),
+    radial-gradient(circle at 3% 88%, rgba(255, 147, 28, 0.06), transparent 25%);
+}
+
+.md-typeset {
+  line-height: 1.72;
+  font-size: 0.83rem;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  letter-spacing: -0.02em;
+  font-weight: 800;
+}
+
+.md-typeset h1 {
+  margin-bottom: 0.7rem;
+  font-size: clamp(1.95rem, 3vw, 2.35rem);
+}
+
+.md-typeset h2 {
+  margin-top: 2rem;
+  border-bottom: 1px solid rgba(255, 147, 28, 0.22);
+  padding-bottom: 0.35rem;
+}
+
+.md-typeset p,
+.md-typeset li {
+  color: var(--md-default-fg-color);
+}
+
 .md-announce {
-  background: var(--team-brand);
+  background: linear-gradient(100deg, #cf6f00 0%, var(--team-brand) 42%, #ffae4d 100%);
   color: #fff;
-  font-size: 0.85rem;
-  text-align: center;
-  padding: 0.5rem 1rem;
+  font-size: 0.82rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.28);
 }
 
 .md-announce a {
-  color: var(--team-accent);
-  font-weight: 700;
-  text-decoration: underline;
+  color: #fff;
+  font-weight: 800;
+  text-decoration-color: rgba(255, 255, 255, 0.75);
 }
 
 .md-announce__inner {
@@ -53,97 +120,142 @@
   flex-wrap: wrap;
 }
 
-/* ----------  Home page grid cards  ------------------------- */
+.md-header {
+  backdrop-filter: blur(10px);
+  box-shadow: 0 3px 14px rgba(16, 24, 40, 0.12);
+}
+
+.md-header__title {
+  font-size: 1.34rem;
+  font-weight: 800;
+}
+
 .md-typeset .grid.cards > ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   padding: 0;
   list-style: none;
 }
 
 .md-typeset .grid.cards > ul > li {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 8px;
-  padding: 1.2rem 1.4rem;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  border: 1px solid rgba(255, 147, 28, 0.2);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.78);
+  padding: 1.15rem 1.2rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .md-typeset .grid.cards > ul > li:hover {
-  box-shadow: 0 4px 12px rgba(255, 147, 28, 0.18);
-  border-color: var(--team-brand-light);
+  transform: translateY(-3px);
+  border-color: rgba(255, 147, 28, 0.48);
+  box-shadow: var(--shadow-md);
 }
 
-/* ----------  Admonition tweaks  ---------------------------- */
-.md-typeset .admonition.danger,
-.md-typeset details.danger {
-  border-left-color: #d32f2f;
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
+  background: rgba(23, 27, 35, 0.76);
+  border-color: rgba(255, 156, 52, 0.26);
 }
 
-/* ----------  Table styling  -------------------------------- */
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li:hover {
+  border-color: rgba(255, 184, 101, 0.65);
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-weight: 800;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
 .md-typeset table:not([class]) th {
-  background: var(--team-brand);
+  background: linear-gradient(100deg, var(--team-brand-strong), var(--team-brand));
   color: #fff;
-}
-
-/* ----------  Keyboard key styling  ------------------------- */
-.md-typeset kbd {
-  background: var(--md-code-bg-color);
-  border: 1px solid var(--md-default-fg-color--light);
-  border-radius: 4px;
-  padding: 0.1em 0.4em;
-  font-size: 0.85em;
-}
-
-/* ----------  Navigation active link  ----------------------- */
-.md-nav__link--active {
-  color: var(--team-brand-light) !important;
   font-weight: 700;
 }
 
-/* ----------  Footer  --------------------------------------- */
-.md-footer {
-  background: var(--team-brand);
+.md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: rgba(255, 216, 176, 0.25);
 }
 
-/* ----------  Logo sizing  --------------------------------- */
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(even) {
+  background-color: rgba(255, 184, 101, 0.08);
+}
+
+.md-typeset code {
+  border-radius: var(--radius-sm);
+  font-size: 0.8em;
+  padding: 0.14em 0.32em;
+}
+
+.md-typeset pre > code {
+  border-radius: var(--radius-md);
+  padding: 1rem;
+}
+
+.md-typeset kbd {
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--md-default-fg-color--light);
+  border-bottom-width: 2px;
+  border-radius: var(--radius-sm);
+  padding: 0.1em 0.4em;
+  font-size: 0.84em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset kbd {
+  background: rgba(31, 36, 48, 0.92);
+}
+
+.md-typeset a {
+  text-underline-offset: 0.16em;
+  text-decoration-thickness: 0.09em;
+}
+
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: var(--md-primary-fg-color) !important;
+  font-weight: 700;
+}
+
+.md-search__form {
+  border-radius: 999px;
+}
+
+.md-footer {
+  background: linear-gradient(140deg, #cf6f00 0%, #ef8d1a 50%, #ffad47 100%);
+}
+
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg,
 .md-nav__button.md-logo img,
 .md-nav__button.md-logo svg {
-  width: 50px;
-  height: 60px;
+  width: 46px;
+  height: 54px;
   object-fit: contain;
-}
-
-/* ----------  Header title sizing  -------------------------- */
-.md-header__title {
-  font-size: 1.6rem;
-  line-height: 1.2;
-}
-
-.md-header__topic {
-  font-size: 1.35rem;
-  font-weight: 700;
-  line-height: 1.2;
 }
 
 @media screen and (max-width: 76.234375em) {
   .md-header__title {
-    font-size: 1.35rem;
+    font-size: 1.14rem;
   }
 
-  .md-header__topic {
-    font-size: 1.15rem;
+  .md-typeset {
+    font-size: 0.8rem;
   }
-}
 
-@media screen and (max-width: 76.234375em) {
-  .md-header__button.md-logo img,
-  .md-header__button.md-logo svg,
-  .md-nav__button.md-logo img,
-  .md-nav__button.md-logo svg {
-    width: 46px;
-    height: 56px;
+  .md-typeset .grid.cards > ul {
+    grid-template-columns: 1fr;
   }
 }

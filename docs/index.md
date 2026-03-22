@@ -10,9 +10,9 @@
 ## What Is This Site?
 
 This site is a community-written reference for setting up, flashing, calibrating, and using Luma hardware on your robot, including the
-**Luma P1** vision cmaera. It was created by FRC Team 5892 as a resource for the FIRST Robotics community during the 2026 season and beyond.
+**Luma P1** vision camera. It was created by FRC Team 5892 as a resource for the FIRST Robotics community during the 2026 season and beyond.
 
-This guide was made out of a love of efficient and accurate documentaion, and a hope that it will help other teams not repeat our mistakes.
+This guide was made out of a love of efficient and accurate documentation, and a hope that it helps other teams avoid repeating our mistakes.
 
 ## Quick Navigation
 
