@@ -11,9 +11,18 @@
   --5892-warn-border: #ff931c;
 }
 
+/* Make Material use the brand colors declared above */
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: var(--5892-brand);
+  --md-primary-fg-color--light: var(--5892-brand-light);
+  --md-primary-fg-color--dark: var(--5892-brand);
+  --md-accent-fg-color: var(--5892-accent);
+}
+
 /* ----------  Announcement / dismissible banner  ----------- */
 .md-announce {
-  background: var(--luma-brand);
+  background: var(--5892-brand);
   color: #fff;
   font-size: 0.85rem;
   text-align: center;
@@ -21,7 +30,7 @@
 }
 
 .md-announce a {
-  color: var(--luma-accent);
+  color: var(--5892-accent);
   font-weight: 700;
   text-decoration: underline;
 }
@@ -52,7 +61,7 @@
 
 .md-typeset .grid.cards > ul > li:hover {
   box-shadow: 0 4px 12px rgba(255, 147, 28, 0.18);
-  border-color: var(--luma-brand-light);
+  border-color: var(--5892-brand-light);
 }
 
 /* ----------  Admonition tweaks  ---------------------------- */
@@ -63,7 +72,7 @@
 
 /* ----------  Table styling  -------------------------------- */
 .md-typeset table:not([class]) th {
-  background: var(--luma-brand);
+  background: var(--5892-brand);
   color: #fff;
 }
 
@@ -78,11 +87,11 @@
 
 /* ----------  Navigation active link  ----------------------- */
 .md-nav__link--active {
-  color: var(--luma-brand-light) !important;
+  color: var(--5892-brand-light) !important;
   font-weight: 700;
 }
 
 /* ----------  Footer  --------------------------------------- */
 .md-footer {
-  background: var(--luma-brand);
+  background: var(--5892-brand);
 }

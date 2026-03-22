@@ -66,7 +66,7 @@ Key highlights:
 
 !!! tip "Already familiar with Limelights?"
     The Luma P1 is conceptually similar to running a Limelight with PhotonVision,
-    with the added benefit of PoE support.
+    with the added benefit of PoE support (removed in Limelight 4).
 
 ---
 
