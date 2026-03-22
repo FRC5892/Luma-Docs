@@ -2,7 +2,7 @@
   "use strict";
 
   var TASK_NOTE_TEXT = "These checkboxes are toggleable and saved on this device so you can track what you have and what you still need.";
-  var STEP_NOTE_TEXT = "Tip: Click any step to cross it off. Progress is saved on this device.";
+  var STEP_NOTE_TEXT = "Tip: Click a numbered step (number or text) to mark it complete. Progress is saved on this device.";
 
   function normalizeText(text) {
     return (text || "").replace(/\s+/g, " ").trim();
