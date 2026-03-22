@@ -25,7 +25,7 @@ You will need the following physical items:
 
 !!! note "Using LumaSwitch?"
     For switch mounting, wiring, fuse setup, and PoE behavior, see the
-    [LumaSwitch Guide](../guides/lumaswitch.md).
+    [LumaSwitch Guide](../guides/lumaswitch/overview.md).
 
 ---
 

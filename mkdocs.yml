@@ -93,7 +93,11 @@ nav:
       - Prerequisites: getting-started/prerequisites.md
   - Guides:
       - Flashing: guides/flashing.md
-      - LumaSwitch: guides/lumaswitch.md
+      - LumaSwitch:
+        - Overview: guides/lumaswitch/overview.md
+        - Mounting: guides/lumaswitch/mounting.md
+        - Wiring: guides/lumaswitch/wiring.md
+        - Troubleshooting: guides/lumaswitch/troubleshooting.md
       - Networking: guides/networking.md
       - Calibration: guides/calibration.md
       - Troubleshooting: guides/troubleshooting.md

@@ -31,7 +31,7 @@ This guide was made out of a love of efficient and accurate documentaion, and a 
     Step-by-step instructions for flashing the latest PhotonVision image to your
     Luma P1 camera.
 
--   :material-ethernet: **[LumaSwitch Guide](guides/lumaswitch.md)**
+-   :material-ethernet: **[LumaSwitch Guide](guides/lumaswitch/overview.md)**
 
     ---
 
