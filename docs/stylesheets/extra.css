@@ -222,6 +222,27 @@ kbd {
   text-decoration-thickness: 0.09em;
 }
 
+.md-typeset .task-list-item input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.md-typeset .task-item-checked {
+  opacity: 0.88;
+}
+
+.md-typeset .task-item-checked p,
+.md-typeset .task-item-checked span,
+.md-typeset .task-item-checked {
+  text-decoration: line-through;
+  text-decoration-color: rgba(255, 147, 28, 0.5);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .task-item-checked p,
+[data-md-color-scheme="slate"] .md-typeset .task-item-checked span,
+[data-md-color-scheme="slate"] .md-typeset .task-item-checked {
+  text-decoration-color: rgba(255, 184, 101, 0.6);
+}
+
 .md-nav__link--active,
 .md-nav__link:focus,
 .md-nav__link:hover {
