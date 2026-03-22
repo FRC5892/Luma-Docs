@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in improving the Luma P1 community docs!
+Thank you for your interest in improving the Luma community docs!
 
 !!! info "About These Docs"
     This documentation is an **unofficial, community-maintained** resource by

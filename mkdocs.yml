@@ -1,4 +1,4 @@
-site_name: Luma P1 Docs
+site_name: Community Luma Docs
 site_url: https://frc5892.github.io
 site_description: >-
   Community documentation for the Luma P1 FRC vision camera — a FRC 5892
@@ -15,15 +15,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: purple
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
-      accent: purple
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
