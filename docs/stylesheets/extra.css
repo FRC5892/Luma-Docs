@@ -4,11 +4,11 @@
 
 /* ----------  Brand colours  -------------------------------- */
 :root {
-  --luma-brand: #ff931c;
-  --luma-brand-light: #ff931c;
-  --luma-accent: #ff931c;
-  --luma-warn-bg: #ff931c;
-  --luma-warn-border: #ff931c;
+  --5892-brand: #ff931c;
+  --5892-brand-light: #ff931c;
+  --5892-accent: #ff931c;
+  --5892-warn-bg: #ff931c;
+  --5892-warn-border: #ff931c;
 }
 
 /* ----------  Announcement / dismissible banner  ----------- */
