@@ -42,8 +42,8 @@ This guide was made out of a love of efficient and accurate documentation, and a
 
 | Resource | Link |
 |----------|------|
-| PhotonVision Docs | [docs.photonvision.org](https://docs.photonvision.org/) |
 | WPILib Docs | [docs.wpilib.org](https://docs.wpilib.org/) |
+| PhotonVision Docs | [docs.photonvision.org](https://docs.photonvision.org/) |
 | FRC 5892 GitHub (check us out!) | [github.com/FRC5892](https://github.com/FRC5892) |
 
 ---
