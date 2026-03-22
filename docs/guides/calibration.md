@@ -76,7 +76,7 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 
 !!! tip "Tips for a Good Calibration"
     - Cover the **entire field of view** — don't just use the center.
-    - Use a mix of distances and angles.
+    - Use a mix of distances and angles, including extreme ones.
     - Ensure the board is **flat** and the image is sharp (not blurry).
     - Good lighting helps — avoid harsh shadows on the board.
 
