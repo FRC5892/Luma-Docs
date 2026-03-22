@@ -30,12 +30,12 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 ## Supplies
 
 - All flashed Luma P1 cameras
-- Ethernet cables (×3 recommended)
+- Ethernet cables (×3)
 - Programming laptop with FRC Game Tools installed
 - Vision calibration board
 - A surface to prop the Luma up on
 - A second person to hold the calibration board
-- Pen (for labeling cameras)
+- sticky notes (or some other method of keeping track of which cameras are calibrated)
 
 ---
 
@@ -43,16 +43,13 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 
 ### Step 1 — Connect the Luma to Your Network
 
-1. Connect the Luma P1 to your programming laptop (or a network switch) via **Ethernet**.
-2. Power the Luma P1 via **PoE** from the switch, or via its USB-C power port if you don't
-   have a PoE switch available.
-3. Wait approximately **60 seconds** for the Luma to fully boot and for PhotonVision to start.
+//TODO: add steps
 
 ### Step 2 — Access the PhotonVision UI
 
 1. Open a browser and navigate to the PhotonVision dashboard.
    The default address is typically `http://photonvision.local:5800` or the device's IP address
-   with port `5800`.
+   with port `5800`. Note that it is 'http://', not 'https://'.
 2. You should see the PhotonVision interface with a live camera feed.
 
 !!! note
