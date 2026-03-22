@@ -75,8 +75,8 @@ PhotonVision strongly recommends static IPs on the robot network for reliability
 ## Port Forwarding
 
 !!! note
-    If you are using a VH-109 radio (2025+), prefer tethering to the dedicated DS Ethernet port
-    instead of using port forwarding.
+    If you are using a VH-109 radio (2025 and later, excluding China and Taiwan), prefer
+    tethering to the dedicated DS Ethernet port instead of using port forwarding.
 
 If you need to view an Ethernet-connected vision device while tethered over roboRIO USB,
 WPILib `PortForwarder` can forward the PhotonVision web UI port.

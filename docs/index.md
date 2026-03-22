@@ -73,7 +73,8 @@ Key highlights:
 |----------|------|
 | Official Luma Docs | [docs.luma.vision/p1](https://docs.luma.vision/p1/) |
 | PhotonVision Docs | [docs.photonvision.org](https://docs.photonvision.org/) |
-| FRC 5892 GitHub | [github.com/FRC5892](https://github.com/FRC5892) |
+| FRC 5892 GitHub
+(check us out!) | [github.com/FRC5892](https://github.com/FRC5892) |
 
 ---
 
