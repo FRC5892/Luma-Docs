@@ -95,10 +95,9 @@ nav:
     - Networking: p1/networking.md
     - Calibration: p1/calibration.md
     - Troubleshooting: p1/troubleshooting.md
-  - Guides:
-      - LumaSwitch:
-        - Overview: guides/lumaswitch/overview.md
-        - Mounting: guides/lumaswitch/mounting.md
-        - Wiring: guides/lumaswitch/wiring.md
-        - Troubleshooting: guides/lumaswitch/troubleshooting.md
+  - LumaSwitch:
+    - Overview: guides/lumaswitch/overview.md
+    - Mounting: guides/lumaswitch/mounting.md
+    - Wiring: guides/lumaswitch/wiring.md
+    - Troubleshooting: guides/lumaswitch/troubleshooting.md
   - Contributing: contributing.md

@@ -18,7 +18,7 @@ This guide was made out of a love of efficient and accurate documentaion, and a 
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: **[Getting Started](p1/overview.md)**
+-   :material-rocket-launch: **[P1 Overview](p1/overview.md)**
 
     ---
 
