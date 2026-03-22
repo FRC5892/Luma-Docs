@@ -48,4 +48,4 @@ This guide was made out of a love of efficient and accurate documentation, and a
 
 ---
 
-*These docs are a passion project of students on [FRC 5892](https://www.team5892.org/). Contributions are welcome!*
+*These docs are a passion project of students on [FRC 5892](https://www.team5892.org/){: target="_blank" rel="noopener noreferrer" }. Contributions are welcome!*
