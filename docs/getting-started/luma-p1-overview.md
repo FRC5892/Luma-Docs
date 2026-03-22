@@ -1,4 +1,4 @@
-# What is the Luma P1?
+# Luma P1 Overview
 
 !!! info "Unofficial Docs"
     This is an unofficial community guide. For the official Luma documentation, see
@@ -58,7 +58,7 @@ Robot Code (RoboRIO)
    └─────────────────────────────┘
        │
        ▼
-  Robot Network Switch / Radio
+  POE Switch / Radio
 ```
 
 The Luma P1 connects to your robot network over Ethernet. PhotonVision processes the camera

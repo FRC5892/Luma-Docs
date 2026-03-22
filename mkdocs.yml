@@ -89,7 +89,7 @@ plugins:
 nav:
   - Home: index.md
   - Getting Started:
-      - What is Luma?: getting-started/luma-p1-overview.md
+      - Luma P1 Overview: getting-started/luma-p1-overview.md
       - Prerequisites: getting-started/prerequisites.md
   - Guides:
       - Flashing: guides/flashing.md

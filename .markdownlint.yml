@@ -13,7 +13,7 @@ MD033:
 MD024:
   siblings_only: true
 
-# Allow trailing punctuation in headings (e.g. "What is Luma?")
+# Allow trailing punctuation in headings (e.g. "Luma P1 Overview")
 MD026: false
 
 # Line length — docs text can be long
