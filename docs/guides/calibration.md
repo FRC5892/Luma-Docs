@@ -62,6 +62,10 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 4. If you are on an older radio (pre-2025), direct radio/switch Ethernet networking still works,
    but verify your topology before calibration.
 
+Wiring diagram reference:
+
+![Example wiring using a network switch and newer radio](../assets/networking-diagram-vividhosting.webp){ width="900" }
+
 ### Step 1.5 — Set a Unique Hostname (Recommended)
 
 1. Open PhotonVision and go to **Settings -> Networking**.
