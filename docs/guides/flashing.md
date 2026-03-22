@@ -95,7 +95,7 @@ If you have **more than one** Luma P1 to flash, **do not close Raspberry Pi Imag
 flashing the first one.
 
 1. Unplug the flashed Luma (mark it with tape first).
-2. Repeat **Steps 1–3** above with the next Luma to put it into flash mode.
+2. Repeat **Steps 1** above with the next Luma to put it into flash mode.
 3. Switch back to Raspberry Pi Imager — you will see a **"Flash Another"** button.
 4. Click **"Flash Another"** and flash the new Luma.
 5. Mark it as flashed and repeat for any remaining cameras.
