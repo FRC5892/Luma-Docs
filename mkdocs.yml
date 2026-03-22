@@ -1,6 +1,6 @@
-site_name: Community Luma Docs
+site_name: 5892-Docs
 site_url: https://frc5892.github.io
-site_description: Community documentation for Luma products
+site_description: Community documentation by FRC Team 5892
   Community documentation for the Luma P1 FRC vision camera — a FRC 5892
   passion project. Not affiliated with Luma.
 site_author: FRC Team 5892
@@ -91,16 +91,19 @@ plugins:
 
 nav:
   - Home: index.md
-  - P1:
-    - Overview: p1/overview.md
-    - Prerequisites: p1/prerequisites.md
-    - Flashing: p1/flashing.md
-    - Networking: p1/networking.md
-    - Calibration: p1/calibration.md
-    - Troubleshooting: p1/troubleshooting.md
-  - LumaSwitch:
-    - Overview: guides/lumaswitch/overview.md
-    - Mounting: guides/lumaswitch/mounting.md
-    - Wiring: guides/lumaswitch/wiring.md
-    - Troubleshooting: guides/lumaswitch/troubleshooting.md
+  - Luma:
+    - P1:
+      - Overview: p1/overview.md
+      - Prerequisites: p1/prerequisites.md
+      - Flashing: p1/flashing.md
+      - Networking: p1/networking.md
+      - Calibration: p1/calibration.md
+      - Troubleshooting: p1/troubleshooting.md
+    - LumaSwitch:
+      - Overview: guides/lumaswitch/overview.md
+      - Mounting: guides/lumaswitch/mounting.md
+      - Wiring: guides/lumaswitch/wiring.md
+      - Troubleshooting: guides/lumaswitch/troubleshooting.md
+  - LoggedTalonFX:
+    - Placeholder: loggedtalonfx/placeholder.md
   - Contributing: contributing.md

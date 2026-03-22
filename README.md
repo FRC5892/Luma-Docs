@@ -1,2 +1,2 @@
-# Luma-Docs
-Documentation for the Luma P1 camera
+# 5892-Docs
+Community documentation for FRC Team 5892 projects, code, and hardware.

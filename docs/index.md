@@ -1,16 +1,13 @@
-# Welcome to Luma Docs
+# Welcome to 5892-Docs
 
 !!! warning "Unofficial Community Resource"
     These docs are an **unofficial** passion project by [FRC Team 5892](https://github.com/FRC5892).
-    They are **not affiliated with, endorsed by, or maintained by Luma**.
-    For the official Luma documentation, visit **[docs.luma.vision/p1](https://docs.luma.vision/p1/)**.
-
+    They are **not affiliated with, endorsed by, or maintained by any companies or organizations who are referenced**
 ---
 
 ## What Is This Site?
 
-This site is a community-written reference for setting up, flashing, calibrating, and using Luma hardware on your robot, including the
-**Luma P1** vision camera. It was created by FRC Team 5892 as a resource for the FIRST Robotics community during the 2026 season and beyond.
+This site is a community-written reference for robot hardware and software used by FRC Team 5892.
 
 This guide was made out of a love of efficient and accurate documentation, and a hope that it helps other teams avoid repeating our mistakes.
 
@@ -36,6 +33,12 @@ This guide was made out of a love of efficient and accurate documentation, and a
     ---
 
     Hardware specs, mounting, and wiring guidance for using LumaSwitch on your robot.
+
+-   :material-chip: **[LoggedTalonFX Placeholder](loggedtalonfx/placeholder.md)**
+
+    ---
+
+    Initial placeholder for future LoggedTalonFX documentation.
 
 -   :material-tune: **[Calibration Guide](p1/calibration.md)**
 
@@ -70,6 +73,13 @@ Key highlights:
 !!! tip "Already familiar with Limelights?"
     The Luma P1 is conceptually similar to running a Limelight with PhotonVision,
     with the added benefit of PoE support (removed in Limelight 4).
+
+---
+
+## LoggedTalonFX
+
+This section is currently a placeholder while documentation is being drafted.
+See [LoggedTalonFX Placeholder](loggedtalonfx/placeholder.md).
 
 ---
 
