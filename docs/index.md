@@ -18,7 +18,7 @@ This guide was made out of a love of accurate documentaion and things working th
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: **[Getting Started](getting-started/what-is-luma.md)**
+-   :material-rocket-launch: **[Getting Started](getting-started/luma-p1-overview.md)**
 
     ---
 

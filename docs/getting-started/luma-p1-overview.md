@@ -50,10 +50,10 @@ Robot Code (RoboRIO)
    Luma P1 Camera
    ┌─────────────────────────────┐
    │  Camera Sensor              │
-   │        ↓                   │
+   │        ↓                    │
    │  Raspberry Pi CM5           │
    │  (running PhotonVision)     │
-   │        ↓                   │
+   │        ↓                    │
    │  Ethernet (PoE)             │
    └─────────────────────────────┘
        │
