@@ -111,18 +111,31 @@
 .md-header__button.md-logo svg,
 .md-nav__button.md-logo img,
 .md-nav__button.md-logo svg {
-  height: 2.5rem;
-  width: auto;
+  width: 50px;
+  height: 60px;
+  object-fit: contain;
 }
 
 /* ----------  Header title sizing  -------------------------- */
 .md-header__title {
-  font-size: 1.25rem;
+  font-size: 1.6rem;
+  line-height: 1.2;
 }
 
 .md-header__topic {
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   font-weight: 700;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 76.234375em) {
+  .md-header__title {
+    font-size: 1.35rem;
+  }
+
+  .md-header__topic {
+    font-size: 1.15rem;
+  }
 }
 
 @media screen and (max-width: 76.234375em) {
@@ -130,6 +143,7 @@
   .md-header__button.md-logo svg,
   .md-nav__button.md-logo img,
   .md-nav__button.md-logo svg {
-    height: 2.2rem;
+    width: 46px;
+    height: 56px;
   }
 }
