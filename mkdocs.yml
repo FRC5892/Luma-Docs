@@ -95,4 +95,5 @@ nav:
       - Flashing: guides/flashing.md
       - Networking: guides/networking.md
       - Calibration: guides/calibration.md
+      - Troubleshooting: guides/troubleshooting.md
   - Contributing: contributing.md

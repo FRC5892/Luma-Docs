@@ -45,6 +45,8 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 
 1. Power the Luma coprocessor and connect it to your robot or bench network with Ethernet.
 2. Verify your laptop is on the same network as the camera.
+3. Confirm the Luma has finished booting: the Ethernet port LED on the PoE switch where the
+    camera is connected should be flashing green.
 
 !!! note
     For full wiring and networking setup (radio wiring, hostname, static IP, port forwarding,
@@ -115,12 +117,8 @@ each lens has its own unique characteristics.
 
 ## Troubleshooting
 
-| Problem | Solution |
-|---------|----------|
-| Camera feed not visible in PhotonVision | Check Ethernet connection; allow more boot time |
-| Calibration board not detected | Ensure the board is flat, well-lit, and fully in frame |
-| High reprojection error | Delete outlier images; recapture with better coverage and lighting |
-| Changes not saving | Make sure you click **Save** after calibrating |
+See the **[Troubleshooting Guide](troubleshooting.md)** for common calibration and networking
+issues.
 
 ---
 

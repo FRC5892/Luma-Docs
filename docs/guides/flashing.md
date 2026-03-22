@@ -104,12 +104,7 @@ flashing the first one.
 
 ## Troubleshooting
 
-| Problem | Solution |
-|---------|----------|
-| `mmcblk0` does not appear | Make sure RPIBoot completed successfully and the Luma is still connected |
-| RPIBoot does not show "cm5" result | Try reinstalling RPIBoot or using a different USB port |
-| Flash fails partway through | Restart from Step 1; make sure the USB-C cable is secure |
-| Luma not recognized after flashing | Wait ~60 seconds for the Pi to boot after its first flash |
+See the **[Troubleshooting Guide](troubleshooting.md)** for common flashing issues.
 
 ---
 
