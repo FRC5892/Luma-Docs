@@ -12,7 +12,7 @@
 This site is a community-written reference for setting up, flashing, calibrating, and using Luma hardware on your robot, including the
 **Luma P1** vision cmaera. It was created by FRC Team 5892 as a resource for the FIRST Robotics community during the 2026 season and beyond.
 
-This guide was made out of a love of accurate documentaion and things working the right way the first time. It is maintained entirely by team members and outside contributors.
+This guide was made out of a love of efficient and accurate documentaion, and a hope that it will help other teams not repeat our mistakes.
 
 ## Quick Navigation
 
