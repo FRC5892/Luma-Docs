@@ -4,35 +4,35 @@
 
 /* ----------  Brand colours  -------------------------------- */
 :root {
-  --team5892-brand: #ff931c;
-  --team5892-brand-light: #ff931c;
-  --team5892-accent: #ff931c;
-  --team5892-warn-bg: #ff931c;
-  --team5892-warn-border: #ff931c;
+  --team-brand: #ff931c;
+  --team-brand-light: #ff931c;
+  --team-accent: #ff931c;
+  --team-warn-bg: #ff931c;
+  --team-warn-border: #ff931c;
 }
 
 /* Make Material use the brand colors declared above */
 [data-md-color-scheme="default"],
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: var(--team5892-brand);
-  --md-primary-fg-color--light: var(--team5892-brand-light);
-  --md-primary-fg-color--dark: var(--team5892-brand);
-  --md-accent-fg-color: var(--team5892-accent);
+  --md-primary-fg-color: var(--team-brand);
+  --md-primary-fg-color--light: var(--team-brand-light);
+  --md-primary-fg-color--dark: var(--team-brand);
+  --md-accent-fg-color: var(--team-accent);
 }
 
 [data-md-color-primary="custom"] {
-  --md-primary-fg-color: var(--team5892-brand);
-  --md-primary-fg-color--light: var(--team5892-brand-light);
-  --md-primary-fg-color--dark: var(--team5892-brand);
+  --md-primary-fg-color: var(--team-brand);
+  --md-primary-fg-color--light: var(--team-brand-light);
+  --md-primary-fg-color--dark: var(--team-brand);
 }
 
 [data-md-color-accent="custom"] {
-  --md-accent-fg-color: var(--team5892-accent);
+  --md-accent-fg-color: var(--team-accent);
 }
 
 /* ----------  Announcement / dismissible banner  ----------- */
 .md-announce {
-  background: var(--team5892-brand);
+  background: var(--team-brand);
   color: #fff;
   font-size: 0.85rem;
   text-align: center;
@@ -40,7 +40,7 @@
 }
 
 .md-announce a {
-  color: var(--team5892-accent);
+  color: var(--team-accent);
   font-weight: 700;
   text-decoration: underline;
 }
@@ -71,7 +71,7 @@
 
 .md-typeset .grid.cards > ul > li:hover {
   box-shadow: 0 4px 12px rgba(255, 147, 28, 0.18);
-  border-color: var(--team5892-brand-light);
+  border-color: var(--team-brand-light);
 }
 
 /* ----------  Admonition tweaks  ---------------------------- */
@@ -82,7 +82,7 @@
 
 /* ----------  Table styling  -------------------------------- */
 .md-typeset table:not([class]) th {
-  background: var(--team5892-brand);
+  background: var(--team-brand);
   color: #fff;
 }
 
@@ -97,13 +97,13 @@
 
 /* ----------  Navigation active link  ----------------------- */
 .md-nav__link--active {
-  color: var(--team5892-brand-light) !important;
+  color: var(--team-brand-light) !important;
   font-weight: 700;
 }
 
 /* ----------  Footer  --------------------------------------- */
 .md-footer {
-  background: var(--team5892-brand);
+  background: var(--team-brand);
 }
 
 /* ----------  Logo sizing  --------------------------------- */
