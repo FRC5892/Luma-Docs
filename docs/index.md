@@ -20,7 +20,7 @@ This guide was made out of a love of efficient and accurate documentation, and a
 
     ---
 
-    Entry point for the P1 and switch documentation.
+    Entry point for the Luma P1 and LumaSwitch documentation.
 
 -   :material-chip: **[LoggedTalonFX](loggedtalonfx/placeholder.md)**
 
