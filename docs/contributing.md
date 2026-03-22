@@ -26,8 +26,8 @@ Contributions of all kinds are welcome:
 
 ```bash
 # Fork the repo on GitHub, then:
-git clone https://github.com/<your-username>/Luma-Docs.git
-cd Luma-Docs
+git clone https://github.com/<your-username>/5892-Docs.git
+cd 5892-Docs
 ```
 
 ### 2. Install Dependencies
@@ -115,5 +115,5 @@ help FRC teams succeed.
 
 ## Questions?
 
-Open an issue on [GitHub](https://github.com/FRC5892/Luma-Docs/issues) or reach out
+Open an issue on [GitHub](https://github.com/FRC5892/5892-Docs/issues) or reach out
 to FRC Team 5892.

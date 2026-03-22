@@ -4,14 +4,14 @@ site_description: Community documentation by FRC Team 5892
   Community documentation for the Luma P1 FRC vision camera — a FRC 5892
   passion project. Not affiliated with Luma.
 site_author: FRC Team 5892
-repo_name: FRC5892/Luma-Docs
+repo_name: FRC5892/5892-Docs
 repo_url: https://github.com/FRC5892/5892-Docs
 edit_uri: edit/main/docs/
 
 theme:
   name: material
-  logo: assets/logo-5892.png
-  favicon: assets/logo-5892.png
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -40,7 +40,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/FRC5892/Luma-Docs
+      link: https://github.com/FRC5892/5892-Docs
   announcement: >-
     These docs are an unofficial FRC 5892 community project and are
     <strong>not affiliated with Luma</strong>. For the official docs, visit
