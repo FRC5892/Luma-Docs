@@ -7,7 +7,7 @@
 ## Overview
 
 The **Luma P1** is an affordable FRC-focused vision co-processor and camera system released
-for the **2026 FRC Reefscape season**. It is designed to give FRC teams a capable, budget-friendly
+for the **2026 FRC REBUILT season**. It is designed to give FRC teams a capable, budget-friendly
 vision solution that works out of the box.
 
 Under the hood, the Luma P1 is built around a **Raspberry Pi Compute Module 5 (CM5)** and
@@ -15,16 +15,16 @@ runs [PhotonVision](https://photonvision.org/) as its vision processing software
 
 ## How It Compares
 
-If you have used a **Limelight** before, the Luma P1 will feel familiar — it's conceptually
+If you have run a Limelight before, the Luma P1 will look familiar — it's decently
 similar to running a Limelight with PhotonVision. The key differences are:
 
 | Feature | Luma P1 | Typical Limelight |
 |---------|---------|-------------------|
 | Vision Software | PhotonVision | Limelight OS (or PhotonVision) |
 | Co-processor | Raspberry Pi CM5 | Varies |
-| PoE Support | ✅ Yes | ✅ Varies by model |
-| Price | Affordable | Varies |
-| Open-source software | ✅ PhotonVision | Partial |
+| PoE Support | Yes |  Varies by model |
+| Price | ~100 usd (each) | ~300 usd (each) |
+| Open-source software | PhotonVision | N/A |
 
 !!! tip
     Teams already using PhotonVision on a coprocessor will find the transition to Luma P1
