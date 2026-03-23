@@ -1,5 +1,6 @@
-# LoggedTalonFX Placeholder
 
-This page is a placeholder for upcoming LoggedTalonFX documentation.
+# LoggedTalonFX Documentation (Coming Soon)
 
-Check back later for full documentation.
+This page serves as a placeholder for future LoggedTalonFX documentation.
+
+Check back soon for comprehensive guides and information.

@@ -1,6 +1,7 @@
+
 # LumaSwitch Mounting
 
-This page covers physical mounting options and dimensions for LumaSwitch.
+This page describes the physical mounting options and dimensions for LumaSwitch.
 
 ---
 
@@ -10,7 +11,7 @@ This page covers physical mounting options and dimensions for LumaSwitch.
 - Hole pattern is on `0.5 in` pitch
 - Accepts `#10` or `M4` hardware
 - Zip-tie notches are available on the enclosure for strap mounting
-- Enclosure is electrically isolated, so frame isolation is generally not required
+- The enclosure is electrically isolated, so frame isolation is generally not required
 
 ---
 
