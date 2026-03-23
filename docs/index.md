@@ -32,8 +32,6 @@ We value knowledge sharing and continuous improvement. If you notice an error or
 
 </div>
 
----
-
 ## Official Resources
 
 | Resource               | Link                                                         |
