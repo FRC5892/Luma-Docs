@@ -1,20 +1,10 @@
 # Contributing
 
-Thank you for your interest in improving the Luma community docs!
+Thank you for your interest in improving this documentation!
 
 !!! info "About These Docs"
     This documentation is an **unofficial, community-maintained** resource by
-    [FRC Team 5892](https://github.com/FRC5892). It is **not affiliated with Luma**.
-    For the official docs, visit [docs.luma.vision/p1](https://docs.luma.vision/p1/).
-
----
-
-# Contributing
-
-Thank you for your interest in improving the Luma community documentation!
-
-!!! info "About These Docs"
-  This documentation is an **unofficial, community-maintained** resource by [FRC Team 5892](https://github.com/FRC5892). It is **not affiliated with Luma**. For official documentation, visit [docs.luma.vision/p1](https://docs.luma.vision/p1/).
+    [FRC Team 5892](https://github.com/FRC5892).
 
 
 ## How to Contribute
