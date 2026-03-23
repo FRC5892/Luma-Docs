@@ -78,13 +78,12 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.tasklist:
+    - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  # Removed duplicate pymdownx.tasklist
   - pymdownx.tilde
 
 plugins:
