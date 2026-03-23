@@ -79,6 +79,6 @@ Before proceeding to the [Flashing Guide](flashing.md), confirm you have everyth
 - [ ] RPIBoot installed
 - [ ] Raspberry Pi Imager installed
 - [ ] Latest PhotonVision image for Luma P1 downloaded
-- [ ] Programming laptop ready
+- [ ] Programming laptop
 
 Once all boxes are checked, head over to **[Flashing your Luma P1](flashing.md)**.
