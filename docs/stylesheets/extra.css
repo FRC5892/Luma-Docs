@@ -254,12 +254,15 @@ kbd {
   opacity: 0.88;
 }
 
+
 .md-typeset .task-item-checked p,
 .md-typeset .task-item-checked span,
 .md-typeset .task-item-checked {
   text-decoration: line-through;
   text-decoration-thickness: 4px;
-  text-decoration-color: rgba(255, 147, 28, 0.5);
+  text-decoration-color: rgba(255, 147, 28, 1);
+  background: linear-gradient(90deg, rgba(255,147,28,0.18) 0%, rgba(255,147,28,0.09) 100%);
+  border-radius: 2px;
 }
 
 [data-md-color-scheme="slate"] .md-typeset .task-item-checked p,
