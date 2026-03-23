@@ -1,6 +1,7 @@
+
 # LumaSwitch Wiring
 
-This page covers powering LumaSwitch and connecting PoE and non-PoE devices.
+This page covers how to power LumaSwitch and connect PoE and non-PoE devices.
 
 ---
 
@@ -28,13 +29,11 @@ When LumaSwitch powers on, Ethernet status LEDs should blink once.
 ## Powering Passive PoE Devices
 
 - Install a fuse on each PoE-capable port you want to energize
-- Red PoE indicator LED means PoE is active and fuse path is intact
+- The red PoE indicator LED means PoE is active and the fuse path is intact
 - Luma P1 is a common passive PoE load for these ports
 
 !!! warning "Fuse Coordination"
-    Use downstream PoE fuses with lower amperage than the upstream fuse protecting LumaSwitch.
-    This helps ensure a downstream short opens only that port fuse instead of taking down the
-    entire switch power feed.
+    Use downstream PoE fuses with lower amperage than the upstream fuse protecting LumaSwitch. This helps ensure a downstream short opens only that port's fuse instead of taking down the entire switch power feed.
 
 ---
 
