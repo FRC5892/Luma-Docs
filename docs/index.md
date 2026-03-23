@@ -1,7 +1,7 @@
 # Welcome to 5892-Docs
 
 !!! warning "Unofficial Community Resource"
-    These docs are an **unofficial** passion project by [FRC Team 5892](https://github.com/FRC5892).
+    These docs are an **unofficial** community effort by [FRC Team 5892](https://github.com/FRC5892).
     They are **not affiliated with, endorsed by, or maintained by any companies or organizations referenced**.
 
 ---
@@ -49,4 +49,4 @@ This guide was made out of a love of efficient and accurate documentation, and a
 
 ---
 
-*These docs are a passion project of students on [FRC 5892](https://www.team5892.org/). Contributions are welcome!*
+*These docs are a project by students on [FRC 5892](https://www.team5892.org/). Contributions are welcome!*
