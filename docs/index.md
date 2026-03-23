@@ -1,7 +1,9 @@
 
 
 
+
 # 5892-Docs: Community FRC Reference
+
 
 !!! warning "Unofficial Community Resource"
     This documentation is an **unofficial, community-driven resource** maintained by [FRC Team 5892](https://github.com/FRC5892).
@@ -9,13 +11,15 @@
 
 ---
 
+
 ## About This Site
 
-Welcome to 5892-Docs! This site is a comprehensive, community-authored reference for the hardware and software used by FRC Team 5892. Our mission is to provide clear, accurate, and practical documentation to help FRC teams succeed and avoid common pitfalls.
+Welcome to 5892-Docs! This site serves as a comprehensive, community-authored reference for the hardware and software utilized by FRC Team 5892. Our mission is to deliver clear, accurate, and practical documentation that empowers FRC teams to succeed and avoid common challenges.
 
-We value knowledge sharing and continuous improvement. If you notice an error or have suggestions for improvement, your contributions are highly encouraged and appreciated.
+We value knowledge sharing and continuous improvement. If you notice an error or have suggestions for improvement, we highly encourage and appreciate your contributions.
 
 ---
+
 
 ## Quick Navigation
 
@@ -31,6 +35,7 @@ We value knowledge sharing and continuous improvement. If you notice an error or
     Learn how to contribute—corrections, additions, and improvements are always welcome!
 
 </div>
+
 
 ## Official Resources
 
