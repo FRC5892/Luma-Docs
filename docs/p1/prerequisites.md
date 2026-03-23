@@ -1,3 +1,4 @@
+
 # Prerequisites
 
 Before you can flash and use your Luma P1, you need to gather a few tools and downloads.
@@ -20,8 +21,7 @@ You will need the following physical items:
 ---
 
 !!! note "Using LumaSwitch?"
-    For switch mounting, wiring, fuse setup, and PoE behavior, see the
-    [LumaSwitch Guide](../guides/lumaswitch/overview.md).
+    For switch mounting, wiring, fuse setup, and PoE behavior, see the [LumaSwitch Guide](../guides/lumaswitch/overview.md).
 
 ---
 
@@ -31,27 +31,23 @@ Download and install the following on your **programming computer** before you s
 
 ### 1. RPIBoot
 
-RPIBoot is required to put the Luma P1 (Raspberry Pi CM5) into USB mass-storage mode so
-you can flash it.
+RPIBoot is required to put the Luma P1 (Raspberry Pi CM5) into USB mass-storage mode so you can flash it.
 
 !!! note "Download Link"
     See the [official Luma docs](https://docs.luma.vision/p1/) for the current download link.
 
 === "Windows"
-    Install the RPIBoot executable. After installation, search for **"cm5"** in the Windows
-    Start Menu — you should see an entry called **rpiboot-CM4-CM5 - Mass Storage Gadget**.
+    Install the RPIBoot executable. After installation, search for **"cm5"** in the Windows Start Menu—you should see an entry called **rpiboot-CM4-CM5 - Mass Storage Gadget**.
 
 === "macOS / Linux"
-    Follow the instructions in the official Raspberry Pi documentation for building RPIBoot
-    from source.
+    Follow the instructions in the official Raspberry Pi documentation for building RPIBoot from source.
 
 ### 2. Raspberry Pi Imager
 
 The Raspberry Pi Imager is used to write the PhotonVision image to the Luma P1.
 
 !!! warning "Use Raspberry Pi Imager — not Balena Etcher"
-    The flashing process requires Raspberry Pi Imager specifically. **Do not use Balena Etcher
-    or other imaging tools**, as they do not support the required options.
+    The flashing process requires Raspberry Pi Imager specifically. **Do not use Balena Etcher or other imaging tools**, as they do not support the required options.
 
 !!! note "Download Link"
     Download from [raspberrypi.com/software](https://www.raspberrypi.com/software/).
