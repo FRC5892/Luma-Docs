@@ -1,39 +1,35 @@
-# Welcome to 5892-Docs
+
+# 5892-Docs: Community FRC Reference
 
 !!! warning "Unofficial Community Resource"
-    These docs are an **unofficial** community effort by [FRC Team 5892](https://github.com/FRC5892).
-    They are **not affiliated with, endorsed by, or maintained by any companies or organizations referenced**.
+        This documentation is an **unofficial, community-driven resource** maintained by [FRC Team 5892](https://github.com/FRC5892).
+        It is **not affiliated with, endorsed by, or maintained by any companies or organizations referenced**.
 
 ---
 
-## What Is This Site?
+## About This Site
 
-This site is a community-written reference for robot hardware and software used by FRC Team 5892.
+Welcome! This site is a comprehensive, community-authored reference for robot hardware and software used by FRC Team 5892. Our goal is to provide clear, accurate, and practical documentation to help FRC teams succeed and avoid common pitfalls.
 
-This guide was made out of a love of efficient and accurate documentation, and a hope that it helps other teams avoid repeating our mistakes.
+We believe in sharing knowledge and lessons learned—if you spot an error or have an improvement, your contributions are encouraged and appreciated.
+
+---
 
 ## Quick Navigation
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: **[Luma](p1/overview.md)**
+- :material-rocket-launch: **[Luma](p1/overview.md)**
+  
+    Entry point for Luma P1 and LumaSwitch documentation.
 
-    ---
+- :material-chip: **[LoggedTalonFX](loggedtalonfx/placeholder.md)**
+  
+    Placeholder for future LoggedTalonFX documentation.
 
-    Entry point for the Luma P1 and LumaSwitch documentation.
-
--   :material-chip: **[LoggedTalonFX](loggedtalonfx/placeholder.md)**
-
-    ---
-
-    Initial placeholder for future LoggedTalonFX documentation.
-
--   :material-source-pull: **[Contributing](contributing.md)**
-
-    ---
-
-    Help improve these community docs — corrections, additions, and improvements
-    are always welcome.
+- :material-source-pull: **[Contributing](contributing.md)**
+  
+    Learn how to contribute—corrections, additions, and improvements are always welcome!
 
 </div>
 
@@ -41,12 +37,12 @@ This guide was made out of a love of efficient and accurate documentation, and a
 
 ## Official Resources
 
-| Resource | Link |
-|----------|------|
-| WPILib Docs | [docs.wpilib.org](https://docs.wpilib.org/) |
-| PhotonVision Docs | [docs.photonvision.org](https://docs.photonvision.org/) |
-| FRC 5892 GitHub (check us out!) | [github.com/FRC5892](https://github.com/FRC5892) |
+| Resource                | Link                                              |
+|-------------------------|--------------------------------------------------|
+| WPILib Documentation    | [docs.wpilib.org](https://docs.wpilib.org/)      |
+| PhotonVision Docs       | [docs.photonvision.org](https://docs.photonvision.org/) |
+| FRC 5892 on GitHub      | [github.com/FRC5892](https://github.com/FRC5892) |
 
 ---
 
-*These docs are a project by students on [FRC 5892](https://www.team5892.org/). Contributions are welcome!*
+*This project is created and maintained by students from [FRC 5892](https://www.team5892.org/). Contributions from the community are always welcome!*
