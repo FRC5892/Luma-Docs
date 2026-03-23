@@ -34,9 +34,6 @@ We value knowledge sharing and continuous improvement. If you notice an error or
 
 ---
 
-
----
-
 ## Official Resources
 
 | Resource               | Link                                                         |
@@ -44,9 +41,6 @@ We value knowledge sharing and continuous improvement. If you notice an error or
 | WPILib Documentation   | [docs.wpilib.org](https://docs.wpilib.org/)                  |
 | PhotonVision Docs      | [docs.photonvision.org](https://docs.photonvision.org/)      |
 | FRC 5892 on GitHub     | [github.com/FRC5892](https://github.com/FRC5892)             |
-
----
-
 
 ---
 
