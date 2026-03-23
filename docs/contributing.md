@@ -16,7 +16,6 @@ Thank you for your interest in improving the Luma community documentation!
 !!! info "About These Docs"
   This documentation is an **unofficial, community-maintained** resource by [FRC Team 5892](https://github.com/FRC5892). It is **not affiliated with Luma**. For official documentation, visit [docs.luma.vision/p1](https://docs.luma.vision/p1/).
 
----
 
 ## How to Contribute
 
@@ -26,8 +25,6 @@ We welcome contributions of all kinds:
 - **Improve existing guides** — Clarify steps, add tips, or include more screenshots.
 - **Add new guides** — Troubleshooting, advanced configuration, WPILib integration, etc.
 - **Update outdated content** — As PhotonVision and Luma firmware evolve.
-
----
 
 ## Getting Started
 
@@ -81,8 +78,6 @@ mkdocs build --strict
 
 Push your changes to your fork and open a PR against the `main` branch. Please include a brief description of what you changed and why.
 
----
-
 ## Style Guide
 
 - Write in **plain, friendly English** — our audience includes new FRC students.
@@ -97,14 +92,10 @@ Push your changes to your fork and open a PR against the `main` branch. Please i
   This is an unofficial community guide. For the official Luma documentation, see [docs.luma.vision/p1](https://docs.luma.vision/p1/).
 ```
 
----
-
 ## Pre-commit Hooks *(Optional)*
 
 If you would like automatic linting before each commit, install the pre-commit hooks:
 help FRC teams succeed.
-
----
 
 ## Questions?
 
