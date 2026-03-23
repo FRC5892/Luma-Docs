@@ -71,13 +71,14 @@ FRC Game Tools includes the Driver Station and other utilities needed during set
 
 ## Summary Checklist
 
+
 Before proceeding to the [Flashing Guide](flashing.md), confirm you have everything:
 
-- [x] Luma P1 camera(s)
-- [x] USB-C cable
-- [x] RPIBoot installed
-- [x] Raspberry Pi Imager installed
-- [x] Latest PhotonVision image for Luma P1 downloaded
-- [x] Programming laptop ready
+- [ ] Luma P1 camera(s)
+- [ ] USB-C cable
+- [ ] RPIBoot installed
+- [ ] Raspberry Pi Imager installed
+- [ ] Latest PhotonVision image for Luma P1 downloaded
+- [ ] Programming laptop ready
 
 Once all boxes are checked, head over to **[Flashing your Luma P1](flashing.md)**.
