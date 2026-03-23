@@ -1,4 +1,5 @@
 
+
 # 5892-Docs: Community FRC Reference
 
 !!! warning "Unofficial Community Resource"
@@ -9,9 +10,9 @@
 
 ## About This Site
 
-Welcome! This site is a comprehensive, community-authored reference for robot hardware and software used by FRC Team 5892. Our goal is to provide clear, accurate, and practical documentation to help FRC teams succeed and avoid common pitfalls.
+Welcome to the 5892-Docs! This site serves as a comprehensive, community-authored reference for the hardware and software used by FRC Team 5892. Our mission is to provide clear, accurate, and practical documentation to help FRC teams succeed and avoid common pitfalls.
 
-We believe in sharing knowledge and lessons learned—if you spot an error or have an improvement, your contributions are encouraged and appreciated.
+We value knowledge sharing and continuous improvement. If you notice an error or have suggestions for improvement, your contributions are highly encouraged and appreciated.
 
 ---
 
@@ -19,16 +20,13 @@ We believe in sharing knowledge and lessons learned—if you spot an error or ha
 
 <div class="grid cards" markdown>
 
-- :material-rocket-launch: **[Luma](p1/overview.md)**
-  
-    Entry point for Luma P1 and LumaSwitch documentation.
+- :material-rocket-launch: **[Luma](p1/overview.md)**  
+    Start here for Luma P1 and LumaSwitch documentation.
 
-- :material-chip: **[LoggedTalonFX](loggedtalonfx/placeholder.md)**
-  
-    Placeholder for future LoggedTalonFX documentation.
+- :material-chip: **[LoggedTalonFX](loggedtalonfx/placeholder.md)**  
+    Placeholder for upcoming LoggedTalonFX documentation.
 
-- :material-source-pull: **[Contributing](contributing.md)**
-  
+- :material-source-pull: **[Contributing](contributing.md)**  
     Learn how to contribute—corrections, additions, and improvements are always welcome!
 
 </div>
@@ -37,12 +35,12 @@ We believe in sharing knowledge and lessons learned—if you spot an error or ha
 
 ## Official Resources
 
-| Resource                | Link                                              |
-|-------------------------|--------------------------------------------------|
-| WPILib Documentation    | [docs.wpilib.org](https://docs.wpilib.org/)      |
-| PhotonVision Docs       | [docs.photonvision.org](https://docs.photonvision.org/) |
-| FRC 5892 on GitHub      | [github.com/FRC5892](https://github.com/FRC5892) |
+| Resource               | Link                                                         |
+|------------------------|--------------------------------------------------------------|
+| WPILib Documentation   | [docs.wpilib.org](https://docs.wpilib.org/)                  |
+| PhotonVision Docs      | [docs.photonvision.org](https://docs.photonvision.org/)      |
+| FRC 5892 on GitHub     | [github.com/FRC5892](https://github.com/FRC5892)             |
 
 ---
 
-*This project is created and maintained by students from [FRC 5892](https://www.team5892.org/). Contributions from the community are always welcome!*
+*This project is created and maintained by students from [FRC 5892](https://www.team5892.org/). Community contributions are always welcome!*
