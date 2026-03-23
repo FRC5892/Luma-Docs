@@ -10,6 +10,7 @@ Before you can flash and use your Luma P1, you need to gather a few tools and do
 
 You will need the following physical items:
 
+
 - [ ] **Luma P1 camera** (one or more)
 - [ ] **LumaSwitch** *(optional but recommended for multi-camera PoE setups)*
 - [ ] **USB-C cable** — used to connect the Luma to your programming laptop for flashing
@@ -18,6 +19,8 @@ You will need the following physical items:
 - [ ] **Vision calibration board** — for the calibration step
 - [ ] **Surface to prop the Luma on** — during calibration
 - [ ] **Tape or labels** — to mark which cameras have been flashed
+
+<span class="tracking-note">These checkboxes are toggleable and saved on this device so you can track what you have and what you still need.</span>
 
 ---
 
