@@ -20,7 +20,6 @@ You will need the following physical items:
 - [ ] **Surface to prop the Luma on** — during calibration
 - [ ] **Tape or labels** — to mark which cameras have been flashed
 
-<span class="tracking-note">These checkboxes are toggleable and saved on this device so you can track what you have and what you still need.</span>
 
 ---
 
