@@ -2,10 +2,6 @@
 
 This page covers common LumaSwitch setup and power-distribution issues.
 
-!!! info "Unofficial Docs"
-    This is an unofficial community guide. For the official Luma documentation, see
-    [docs.luma.vision/p1](https://docs.luma.vision/p1/).
-
 ---
 
 ## Common Issues

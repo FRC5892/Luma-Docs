@@ -2,10 +2,6 @@
 
 This guide covers physical wiring and networking setup for Luma coprocessors using PhotonVision.
 
-!!! info "Unofficial Docs"
-    This is an unofficial community guide. For the official Luma documentation, see
-    [docs.luma.vision/p1](https://docs.luma.vision/p1/).
-
 ---
 
 ## Physical Networking

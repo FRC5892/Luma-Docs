@@ -2,10 +2,6 @@
 
 This page covers physical mounting options and dimensions for LumaSwitch.
 
-!!! info "Unofficial Docs"
-    This is an unofficial community guide. For the official Luma documentation, see
-    [docs.luma.vision/p1](https://docs.luma.vision/p1/).
-
 ---
 
 ## Mounting Details

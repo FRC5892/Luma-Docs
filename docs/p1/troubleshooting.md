@@ -2,10 +2,6 @@
 
 This page collects common issues across flashing, networking, and calibration.
 
-!!! info "Unofficial Docs"
-    This is an unofficial community guide. For the official Luma documentation, see
-    [docs.luma.vision/p1](https://docs.luma.vision/p1/).
-
 ---
 
 ## Flashing Issues

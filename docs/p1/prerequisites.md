@@ -2,10 +2,6 @@
 
 Before you can flash and use your Luma P1, you need to gather a few tools and downloads.
 
-!!! info "Unofficial Docs"
-    This is an unofficial community guide. For the official Luma documentation, see
-    [docs.luma.vision/p1](https://docs.luma.vision/p1/).
-
 ---
 
 ## Hardware

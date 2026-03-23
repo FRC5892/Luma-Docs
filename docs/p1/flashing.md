@@ -2,10 +2,6 @@
 
 This guide walks you through flashing the latest PhotonVision image onto your Luma P1 camera.
 
-!!! info "Unofficial Docs"
-    This is an unofficial community guide. For the official Luma documentation, see
-    [docs.luma.vision/p1](https://docs.luma.vision/p1/).
-
 !!! warning "Read Before You Start"
     Make sure you have completed all steps on the [Prerequisites](prerequisites.md)
     page before continuing.

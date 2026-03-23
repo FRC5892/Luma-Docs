@@ -85,7 +85,7 @@ Please include a brief description of what you changed and why.
 - Use **numbered lists** for sequential steps, **bullet lists** for unordered items.
 - Code, file names, and commands should use `inline code` or fenced code blocks.
 - Keep lines under **120 characters** where reasonable.
-- Always include the standard "unofficial docs" info box at the top of guide pages:
+- Include the "unofficial docs" info box on high-level overview/landing pages where that context is relevant:
 
 ```markdown
 !!! info "Unofficial Docs"
