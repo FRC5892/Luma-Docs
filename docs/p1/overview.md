@@ -6,9 +6,9 @@
 
 ## Overview
 
-The **Luma P1** is an affordable, FRC-focused vision co-processor and camera system released for the **2026 FRC REBUILT season**. It is designed to provide FRC teams with a capable, budget-friendly vision solution that works out of the box.
+The **Luma P1** is an affordable, FRC-focused vision co-processor and camera system released for the **2026 FRC REBUILT season**. It is designed to provide FRC teams with a capable, budget-friendly vision solution. 
 
-Under the hood, the Luma P1 is built around a **Raspberry Pi Compute Module 5 (CM5)** and runs [PhotonVision](https://photonvision.org/) as its vision processing software.
+Under the hood, the Luma P1 is built around a **Raspberry Pi Compute Module 5 (CM5)** and runs [PhotonVision](https://photonvision.org/) as its vision processing software. It can stream in both 1280x800 and 600x400 resolution. 
 
 ## How It Compares
 
@@ -31,8 +31,8 @@ If you have used a Limelight before, the Luma P1 will feel familiar—it is simi
 - **PhotonVision:** Industry-standard FRC vision software with AprilTag detection, object tracking, and WPILib integration.
 - **Raspberry Pi CM5:** Powerful, well-supported hardware with an active community.
 - **Affordable:** Built with FRC team budgets in mind.
-- **FRC 2026 ready:** Designed for the 2026 FRC season.
 
+  
 ## How It Works (High Level)
 
 ```
