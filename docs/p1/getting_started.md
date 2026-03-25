@@ -1,10 +1,29 @@
-# Getting Started With P1
 
-1. P1 ships pre-flashed with the latest PhotonVision image available at the time it was assembled. It is not required to flash PhotonVision out of the box unless a new version has been released. In that case, follow the [flashing instructions](flashing.md) to update the PhotonVision installation.
-2. Wire P1 to your robot or test bench following the [wiring instructions](wiring.md). If you are setting up multiple devices, it is recommended to only set up/power one at a time to make it easier to find each device on the robot network.
-3. Power up the robot and get comms. Navigate to `photonvision.local:5800` in your browser, this will bring you to the PhotonVision web configuration.
+# Getting Started with Luma P1
 
-    !!! warning
-        If you have multiple PhotonVision devices on the robot, this address may point to any of them. It is recommended to set up each device one at a time, giving each a static IP and unique hostname as outlined in [networking instructions](networking.md) and [PhotonVision networking documentation](https://docs.photonvision.org/en/latest/docs/quick-start/networking.html#networking)
+!!! info "About This Page"
+    This guide will help you set up your Luma P1 camera for the first time, from unboxing to first use with PhotonVision.
 
-4. Follow the instructions for calibrating the camera as described in [calibration.md](calibration.md) and in  [PhotonVision docs](https://docs.photonvision.org/en/latest/index.html) to finish setting up and using PhotonVision.
+---
+
+## Initial Setup Steps
+
+1. **Check Firmware:**  
+   Your P1 ships pre-flashed with the latest PhotonVision image available at assembly. You only need to re-flash if a newer version is released. If needed, follow the [flashing instructions](flashing.md).
+
+2. **Wiring:**  
+   Connect P1 to your robot or test bench using the [wiring instructions](wiring.md). If you have multiple devices, set up and power them one at a time to simplify network identification.
+
+3. **Power Up and Access:**  
+   Power on the robot. In your browser, go to `photonvision.local:5800` to access the PhotonVision web interface.
+
+    !!! warning "Multiple Devices Detected"
+        If you have more than one PhotonVision device on your robot, `photonvision.local:5800` may connect to any of them. Set up each device individually, assign a static IP and unique hostname as described in the [networking instructions](networking.md) and [PhotonVision networking documentation](https://docs.photonvision.org/en/latest/docs/quick-start/networking.html#networking).
+
+4. **Calibrate:**  
+   Calibrate the camera using [calibration.md](calibration.md) and the [PhotonVision docs](https://docs.photonvision.org/en/latest/index.html) to complete setup and start using vision features.
+
+---
+
+!!! tip "Need More Help?"
+    For troubleshooting or advanced setup, see the [troubleshooting guide](troubleshooting.md) or reach out to the FRC 5892 community.
