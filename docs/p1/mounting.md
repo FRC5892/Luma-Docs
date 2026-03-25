@@ -1,7 +1,7 @@
 
-# Mounting the Luma P1
+# Luma P1 Mounting Guide
 
-!!! info "About This Page"
+!!! info "About This Guide"
     This page explains how to securely and safely mount your Luma P1 camera on a robot or test bench.
 
 ---
@@ -23,9 +23,9 @@ If you cannot add an air hole, a printable spacer with an airflow channel is [av
 
 ## Mounting Diagram
 
-![Mounting Diagram](../assets/p1/diagrams/lumap1.png)
+![Mounting Diagram](../assets/lumap1.png)
 
 ---
 
 !!! tip "Need Help?"
-    For mounting questions or custom solutions, reach out to the FRC 5892 community or check the [troubleshooting guide](troubleshooting.md).
+    For mounting questions or custom solutions, reach out to the FRC 5892 community or check the [Troubleshooting Guide](troubleshooting.md).
