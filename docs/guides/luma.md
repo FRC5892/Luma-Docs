@@ -1,17 +1,17 @@
 # Luma Product Overview
 
-Welcome to the Luma product family! Here you'll find a quick summary of the products offered by Luma, along with links to their documentation overview pages.
+This page provides an overview of the products offered by Luma, with brief descriptions and links to their respective documentation overview pages.
 
 ## Products
 
 ### P1
-- **Summary:** The P1 is a versatile robotics controller designed for FRC teams, offering robust networking, calibration, and troubleshooting features.
+- **Summary:** The P1 is a robotics controller designed for FRC teams, providing reliable networking, calibration, and troubleshooting capabilities.
 - [P1 Overview](../p1/overview.md)
 
 ### LumaSwitch
-- **Summary:** LumaSwitch is a smart switching module for robotics applications, providing easy mounting, wiring, and troubleshooting support.
+- **Summary:** LumaSwitch is a switching module for robotics applications, supporting straightforward mounting, wiring, and troubleshooting.
 - [LumaSwitch Overview](lumaswitch/overview.md)
 
 ---
 
-Explore each product's documentation for detailed guides, setup instructions, and troubleshooting tips.
+Refer to each product's documentation for detailed guides, setup instructions, and troubleshooting information.
