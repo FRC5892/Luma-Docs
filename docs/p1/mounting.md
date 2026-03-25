@@ -23,7 +23,7 @@ If you cannot add an air hole, a printable spacer with an airflow channel is [av
 
 ## Mounting Diagram
 
-![Mounting Diagram](../assets/lumap1.png)
+![Mounting Diagram](../assets/p1/diagrams/lumap1.png)
 
 ---
 
