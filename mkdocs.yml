@@ -97,18 +97,16 @@ nav:
       - P1:
           - Overview: p1/overview.md
           - Prerequisites: p1/prerequisites.md
-          - Flashing: p1/flashing.md
-          - Mounting: p1/mounting.md
-          - Parts: p1/parts.md
-          - Getting Started: p1/getting_started.md
           - Networking: p1/networking.md
+          - Flashing: p1/flashing.md
           - Calibration: p1/calibration.md
+          - Parts: p1/parts.md
           - Troubleshooting: p1/troubleshooting.md
-      - LumaSwitch:
-          - Overview: guides/lumaswitch/overview.md
-          - Mounting: guides/lumaswitch/mounting.md
-          - Wiring: guides/lumaswitch/wiring.md
-          - Troubleshooting: guides/lumaswitch/troubleshooting.md
+          - LumaSwitch:
+            - Overview: guides/lumaswitch/overview.md
+            - Mounting: guides/lumaswitch/mounting.md
+            - Wiring: guides/lumaswitch/wiring.md
+            - Troubleshooting: guides/lumaswitch/troubleshooting.md
   - LoggedTalonFX:
       - Placeholder: loggedtalonfx/placeholder.md
   - Contributing: contributing.md

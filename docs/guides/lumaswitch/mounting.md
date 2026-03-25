@@ -1,12 +1,5 @@
 
-# LumaSwitch Mounting
-
-This page describes the physical mounting options and dimensions for LumaSwitch.
-
----
-
 ## Mounting Details
-
 - Four `5 mm` (`0.2 in`) through-holes, one at each corner
 - Hole pattern is on `0.5 in` pitch
 - Accepts `#10` or `M4` hardware
@@ -16,7 +9,6 @@ This page describes the physical mounting options and dimensions for LumaSwitch.
 ---
 
 ## Best Practices
-
 - Keep cable bends gentle around the Ethernet jacks and power terminal
 - Leave service slack so you can remove fuses and access lever terminals easily
 - Mount where status LEDs are visible during pit troubleshooting
@@ -24,5 +16,6 @@ This page describes the physical mounting options and dimensions for LumaSwitch.
 ---
 
 ## Next Steps
-
-Continue with [Wiring](wiring.md).
+- [Wiring](wiring.md)
+- [Troubleshooting](troubleshooting.md)
+- [Luma Networking](../../p1/networking.md)

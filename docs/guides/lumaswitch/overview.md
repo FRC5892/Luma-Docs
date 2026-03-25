@@ -1,6 +1,6 @@
 
 
-# LumaSwitch
+# LumaSwitch Overview
 
 ![LumaSwitch](../../assets/lumaswitch.png){width="700"}
 
@@ -37,14 +37,8 @@ Five port passive PoE ethernet switch built specifically for the needs of FRC ro
 
 ---
 
-## LumaSwitch Documentation
-
+## Next Steps
 - [Mounting](mounting.md)
 - [Wiring](wiring.md)
 - [Troubleshooting](troubleshooting.md)
-
----
-
-## Next Steps
-
-After reviewing the hardware basics, continue with [Wiring](wiring.md) and then [Luma Networking](../../p1/networking.md).
+- [Luma Networking](../../p1/networking.md)

@@ -39,7 +39,7 @@ Connect an ethernet cable between P1 and one of the PoE ports on LumaSwitch. Use
 !!! note "Using LumaSwitch"
     If you are using LumaSwitch, use the non-PoE uplink port for the radio connection and only install PoE fuses on ports that should provide passive PoE.
 
-For full switch specifications, mounting, and wiring details, see the [LumaSwitch Guide](../guides/lumaswitch/overview.md).
+For full switch specifications, mounting, and wiring details, see the [LumaSwitch Overview & Mounting](../guides/lumaswitch/overview_mounting.md).
 
 ---
 

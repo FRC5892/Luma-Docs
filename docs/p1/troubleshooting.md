@@ -41,6 +41,7 @@ This page collects common issues and solutions for flashing, networking, and cal
 If you still have issues:
 
 1. Re-check the relevant guide for your current task:
+   - [Overview & Getting Started](overview_getting_started.md)
    - [Flashing](flashing.md)
    - [Networking](networking.md)
    - [Calibration](calibration.md)
