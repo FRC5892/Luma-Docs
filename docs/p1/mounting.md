@@ -8,7 +8,7 @@
 
 ## Mounting Points
 
-The Luma P1 enclosure features four 5mm (0.2") through-holes, one in each corner. These holes are compatible with #10 or M4 bolts, making it easy to attach the device to a variety of surfaces. The enclosure is electrically isolated, so you do **not** need to insulate your mount from the robot frame.
+The Luma P1 enclosure features four 5mm (0.2") through-holes, one in each corner. These holes are compatible with #10 or M4 bolts, allowing secure attachment to a variety of surfaces. The enclosure is electrically isolated, so insulation from the robot frame is not required.
 
 ---
 
@@ -28,4 +28,4 @@ If you cannot add an air hole, a printable spacer with an airflow channel is [av
 ---
 
 !!! tip "Need Help?"
-    For mounting questions or custom solutions, reach out to the FRC 5892 community or check the [Troubleshooting Guide](troubleshooting.md).
+    For mounting questions or custom solutions, consult the [Troubleshooting Guide](troubleshooting.md) or contact the FRC 5892 community.
