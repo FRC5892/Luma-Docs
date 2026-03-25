@@ -30,4 +30,4 @@
 ---
 
 !!! tip "Need Help?"
-    If you are unsure which part you need, check the [troubleshooting guide](troubleshooting.md) or ask in the FRC 5892 community.
+    If you are uncertain which part is required, consult the [troubleshooting guide](troubleshooting.md) or contact the FRC 5892 community.
