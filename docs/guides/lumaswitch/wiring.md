@@ -1,39 +1,24 @@
 
-# LumaSwitch Wiring
 
-This page covers how to power LumaSwitch and connect PoE and non-PoE devices.
-
----
+# Wiring
 
 ## Powering LumaSwitch
 
-- Power from unregulated battery voltage via PDH/PDP/MPM into the WAGO lever terminal
-- WAGO input accepts `26 AWG` through `16 AWG`
-- If powering downstream PoE loads, `16 AWG` or `18 AWG` is recommended
-- Typical upstream protection:
-  - `15A` to `20A` if you are powering PoE devices (subject to legal wiring rules for your robot)
-  - `5A` is typically sufficient when not using PoE
+LumaSwitch can be powered via unregulated battery voltage directly from the PDH/PDP/MPM via the Wago lever terminal. The lever terminal can accept 26 to 16 AWG wire. If you are using LumaSwitch to power other devices with PoE, 16 or 18 AWG wire is recommended, with a 15A-20A fuse protecting the switch, depending on what is legally allowed in the port you're using. If not using PoE, you can safely use any compatible wire with a 5A fuse.
 
-When LumaSwitch powers on, Ethernet status LEDs should blink once.
-
----
+When LumaSwitch is powered on, all ethernet status lights will blink once to indicate it is powered and working properly.
 
 ## Connecting Non-PoE Devices
 
-- Use the non-PoE port on the same side as the power input for uplink (typically the robot radio)
-- The four PoE-capable ports can still be used for non-PoE devices
-- Remove the fuse on a PoE-capable port to disable PoE output for that port
+LumaSwitch has one port that does not support PoE on the same side as the power input. This port is recommended to be used to connect LumaSwitch to the robot radio. 
 
----
+The other 4 ports can also be safely used with non-PoE devices, simply make sure there is no fuse installed for the ports you are using, and PoE output will be disabled for that port.
 
 ## Powering Passive PoE Devices
+LumaSwitch can provide passive, unregulated PoE to up to 4 supported devices simultaneously, such as Luma P1. Enable PoE output on the desired ports by installing a 5A fuse for each port you would like to power a device with. The red "PoE" indicator LED will illuminate if PoE is being delivered and the installed fuse is good.
 
-- Install a fuse on each PoE-capable port you want to energize
-- The red PoE indicator LED means PoE is active and the fuse path is intact
-- Luma P1 is a common passive PoE load for these ports
-
-!!! warning "Fuse Coordination"
-    Use downstream PoE fuses with lower amperage than the upstream fuse protecting LumaSwitch. This helps ensure a downstream short opens only that port's fuse instead of taking down the entire switch power feed.
+!!! note
+    Ensure that the fuses you use for PoE on LumaSwitch are each rated for a lower amperage than the fuse being used to protect the switch itself. This ensures that a short in one of the downstream devices will only blow its PoE fuse, not the fuse for the whole switch.
 
 ---
 
