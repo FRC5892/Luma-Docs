@@ -13,7 +13,8 @@
    Your Luma P1 ships pre-flashed with the latest PhotonVision image available at assembly. You only need to re-flash if a newer version is released. If needed, follow the [Flashing Guide](flashing.md).
 
 2. **Wiring**  
-   Connect the Luma P1 to your robot or test bench using the [Wiring Guide](wiring.md). If you have multiple devices, set up and power them one at a time to simplify network identification.
+   <!-- Wiring Guide does not exist, removing link -->
+   Connect the Luma P1 to your robot or test bench using the included documentation. If you have multiple devices, set up and power them one at a time to simplify network identification.
 
 3. **Power Up and Access**  
    Power on the robot. In your browser, go to `photonvision.local:5800` to access the PhotonVision web interface.

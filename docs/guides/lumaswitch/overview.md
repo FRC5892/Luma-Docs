@@ -2,7 +2,7 @@
 
 # LumaSwitch
 
-![LumaSwitch](../../../LumaSwitch_Cover.jpg){width="700"}
+![LumaSwitch](../../assets/lumaswitch.png){width="700"}
 
 Five port passive PoE ethernet switch built specifically for the needs of FRC robots.
 
@@ -27,7 +27,7 @@ Five port passive PoE ethernet switch built specifically for the needs of FRC ro
 
 ## Quick Links
 * [Store Page](https://luma.vision/products/lumaswitch)
-* [Mounting Diagram](../../../networking-diagram-vividhosting.webp)
+* [Mounting Diagram](../../assets/networking-diagram-vividhosting.webp)
 <!-- * [Enclosure 3D printing files]() -->
 
 ---

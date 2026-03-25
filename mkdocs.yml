@@ -98,6 +98,9 @@ nav:
           - Overview: p1/overview.md
           - Prerequisites: p1/prerequisites.md
           - Flashing: p1/flashing.md
+          - Mounting: p1/mounting.md
+          - Parts: p1/parts.md
+          - Getting Started: p1/getting_started.md
           - Networking: p1/networking.md
           - Calibration: p1/calibration.md
           - Troubleshooting: p1/troubleshooting.md

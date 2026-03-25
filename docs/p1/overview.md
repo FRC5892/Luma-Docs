@@ -76,8 +76,9 @@ The Luma P1 connects to your robot network over Ethernet. PhotonVision processes
 ## Quick Links
 * [Store Page](https://luma.vision/products/p1)
 * [PhotonVision Docs](https://docs.photonvision.org/en/latest/)
-* [STEP file](files/P1%20Assembly%20Public.step)
-* [Mounting Diagram](files/P1%20Assembly%20Public%20Drawing.pdf)
+<!-- STEP file and Mounting Diagram not available -->
+<!-- * [STEP file](files/P1%20Assembly%20Public.step) -->
+<!-- * [Mounting Diagram](files/P1%20Assembly%20Public%20Drawing.pdf) -->
 * [Enclosure 3D printing files](https://makerworld.com/en/models/1925518-luma-p1-printable-enclosure)
 * [Airflow spacer 3D printing files](https://makerworld.com/en/models/1939322-luma-p1-airflow-spacer)
 
