@@ -16,7 +16,7 @@ Calibration teaches the camera its unique lens characteristics—such as focal l
 Without calibration, AprilTag pose estimates will be inaccurate.
 
 !!! tip "Preserving Calibration When Updating"
-    If updating a **previously calibrated** camera to a newer PhotonVision version, use the **Offline Update** feature in PhotonVision rather than re-flashing the OS. This preserves your calibration data. *(Offline Update documentation coming soon.)*
+    If updating a **previously calibrated** camera to a newer PhotonVision version, use the **Offline Update** feature in PhotonVision rather than re-flashing the operating system. This approach preserves your calibration data. *(Offline Update documentation coming soon.)*
 
 ---
 
@@ -28,7 +28,7 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 - Vision calibration board
 - Surface to prop up the Luma
 - Second person to hold the calibration board
-- Sticky notes or another method to track which cameras are calibrated
+- Sticky notes or another method to track which cameras have been calibrated
 
 ---
 
@@ -38,7 +38,7 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 
 1. Power the Luma coprocessor and connect it to your robot or bench network using Ethernet.
 2. Verify your laptop is on the same network as the camera.
-3. Confirm network link/activity on the switch port for that camera (often indicated by a flashing link light). Allow normal boot time before opening PhotonVision.
+3. Confirm network link or activity on the switch port for that camera (typically indicated by a flashing link light). Allow the device to complete its normal boot process before opening PhotonVision.
 
 !!! note
     For full wiring and networking setup—including radio wiring, hostname, static IP, port forwarding, stream ports, and SSH—see the [Luma Networking Guide](networking.md).
@@ -69,7 +69,7 @@ Without calibration, AprilTag pose estimates will be inaccurate.
 5. Capture a minimum of 12 images. **25–30 images** is recommended for a good calibration. More is better. Your goal is to blot out the feed with the multicolored dots.
 
 !!! tip "Tips for a Good Calibration"
-    - Cover the **entire field of view**—not just the center.
+    - Ensure the **entire field of view** is covered—not just the center.
     - Use a mix of distances and angles, including extreme ones.
     - Ensure the board is flat and the image is sharp (not blurry).
     - Good lighting helps—avoid harsh shadows on the board.

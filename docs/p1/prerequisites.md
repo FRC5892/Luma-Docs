@@ -13,7 +13,7 @@ You will need the following physical items:
 
 - [ ] **Luma P1 camera** (one or more)
 - [ ] **LumaSwitch** *(optional but recommended for multi-camera PoE setups)*
-- [ ] **USB-C cable** — used to connect the Luma to your programming laptop for flashing
+- [ ] **USB-C cable** — required to connect the Luma to the programming laptop for flashing
 - [ ] **Ethernet cables** (×3 recommended) — for networking during calibration
 - [ ] **Programming laptop** — Windows, macOS, or Linux
 - [ ] **Vision calibration board** — for the calibration step
@@ -50,7 +50,7 @@ RPIBoot is required to put the Luma P1 (Raspberry Pi CM5) into USB mass-storage 
 The Raspberry Pi Imager is used to write the PhotonVision image to the Luma P1.
 
 !!! warning "Use Raspberry Pi Imager — not Balena Etcher"
-    The flashing process requires Raspberry Pi Imager specifically. **Do not use Balena Etcher or other imaging tools**, as they do not support the required options.
+    The flashing process requires Raspberry Pi Imager specifically. **Do not use Balena Etcher or other imaging tools**, as these do not support the required options.
 
 !!! note "Download Link"
     Download from [raspberrypi.com/software](https://www.raspberrypi.com/software/).
@@ -83,4 +83,4 @@ Before proceeding to the [Flashing Guide](flashing.md), confirm you have everyth
 - [ ] Latest PhotonVision image for Luma P1 downloaded
 - [ ] Programming laptop
 
-Once all boxes are checked, head over to **[Flashing your Luma P1](flashing.md)**.
+Once all items are confirmed, proceed to **[Flashing your Luma P1](flashing.md)**.

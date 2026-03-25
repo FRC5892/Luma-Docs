@@ -14,7 +14,7 @@ This guide provides step-by-step instructions for flashing the latest PhotonVisi
 Flashing is the process of connecting your device to a computer and using a specialized tool to write an image file (the latest release of PhotonVision) to the device's internal storage. This will overwrite the existing firmware and calibration data on the device.
 
 !!! tip "Preserving Calibration Data"
-    If you are updating a **previously calibrated** Luma P1 to a newer PhotonVision version, use the **Offline Update** feature in PhotonVision instead of flashing the OS. This preserves your calibration settings. *(Offline Update documentation coming soon.)*
+    If updating a **previously calibrated** Luma P1 to a newer PhotonVision version, use the **Offline Update** feature in PhotonVision rather than flashing the operating system. This approach preserves your calibration settings. *(Offline Update documentation coming soon.)*
 
 ---
 
@@ -44,7 +44,7 @@ Flashing is the process of connecting your device to a computer and using a spec
 
 4. Wait until the application says you can press any key to close—press ++enter++.
 5. The Luma is now in **flash mode** ✅
-
+    The Luma P1 is now in **flash mode**.
 !!! danger "Do NOT Unplug"
     Do not unplug the Luma P1 while it is in flash mode. Unplugging it will exit flash mode and you will need to start over from Step 1.
 
@@ -62,7 +62,7 @@ Flashing is the process of connecting your device to a computer and using a spec
 
     Do NOT enable "Show system drives." Do NOT touch that toggle.
 
-    You should see a device named **`mmcblk0`** appear in the list—this is the Luma P1's internal storage. Select `mmcblk0`.
+    A device named **`mmcblk0`** should appear in the list—this is the Luma P1's internal storage. Select `mmcblk0`.
 
 5. When prompted to confirm that you want to erase everything on `mmcblk0`, press **OK**.
 6. Wait for the flash to complete. The imager will notify you when the camera is successfully flashed.
@@ -71,8 +71,8 @@ Flashing is the process of connecting your device to a computer and using a spec
 
 ### Step 3: Mark and Unplug
 
-1. Mark the Luma with tape or a label to indicate it has been flashed.
-2. Unplug the Luma P1 from your computer.
+1. Mark the Luma P1 with tape or a label to indicate it has been flashed.
+2. Disconnect the Luma P1 from your computer.
 
 ---
 

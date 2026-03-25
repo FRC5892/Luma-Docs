@@ -21,17 +21,18 @@ This section covers the recommended and alternative ways to power and connect yo
 
 ## New Radio (2025–Present) & LumaSwitch (Recommended)
 
-The simplest and most reliable method of wiring P1 is by utilizing the Vivid Hosting radio or [LumaSwitch](https://luma.vision/products/lumaswitch)'s PoE output.
+
+The most reliable method for wiring the P1 is to use the Vivid Hosting radio or [LumaSwitch](https://luma.vision/products/lumaswitch) PoE output.
 
 ![Radio PoE Diagram](../assets/p1/diagrams/Radio%20PoE%20Diagram.png){width="600"}
 
 **Radio:**
 
-Simply connect the radio to P1 with an ethernet cable and switch on the [PoE dipswitch](https://frc-radio.vivid-hosting.net/overview/wiring-your-radio#power-over-ethernet-poe-for-downstream-devices) for the port its plugged into.
+Connect the radio to the P1 using an Ethernet cable. Enable the [PoE dipswitch](https://frc-radio.vivid-hosting.net/overview/wiring-your-radio#power-over-ethernet-poe-for-downstream-devices) for the port to which it is connected.
 
 **LumaSwitch:**
 
-Connect an ethernet cable between P1 and one of the PoE ports on LumaSwitch. Use a 5A fuse to enable PoE on the chosen slot.
+Connect an Ethernet cable between the P1 and one of the PoE ports on LumaSwitch. Install a 5A fuse to enable PoE on the selected port.
 
 !!! warning
     When powering P1 via PoE, ensure you are using an ethernet cable that uses at least 24 AWG wire for each conductor. DO NOT use "low profile" ethernet cable.
@@ -45,7 +46,7 @@ For full switch specifications, mounting, and wiring details, see the [LumaSwitc
 
 ## PoE Injector or Custom PoE Cable
 
-If you do not wish to use PoE from the radio or would like to connect P1 to an ethernet switch, you can still power P1 via PoE by using a PoE injector or custom PoE cable. Use a 5A or 10A fuse in the slot powering the PoE injector or cable.
+If PoE from the radio is not preferred, or if connecting the P1 to an Ethernet switch, power can be supplied via a PoE injector or custom PoE cable. Use a 5A or 10A fuse in the slot powering the PoE injector or cable.
 
 ![PoE Diagram](../assets/p1/diagrams/PoE%20Diagram.png){width="600"}
 
@@ -64,7 +65,7 @@ If not using PoE, or you would like to have redundant power, P1 can also be powe
 
 ## Old Radio (Pre-2025)
 
-Direct radio/switch Ethernet networking can still work, but verify your topology and power settings before testing.
+Direct radio or switch Ethernet networking remains functional; however, verify the network topology and power settings before use.
 
 !!! danger
     Ensure DIP switches **1 and 2 are OFF** on the radio before connecting the coprocessor. Incorrect PoE settings can electrically damage the coprocessor.
@@ -89,7 +90,7 @@ Unique hostnames help you manage multiple coprocessors reliably.
 
 ## Robot Networking (Static IP)
 
-PhotonVision strongly recommends using static IPs on the robot network for reliability.
+PhotonVision recommends using static IP addresses on the robot network to ensure reliability.
 
 !!! warning
     Use static IP mode only on your robot network. Do not force static settings on random home networks unless you are comfortable managing local network configuration.
@@ -114,7 +115,7 @@ PhotonVision strongly recommends using static IPs on the robot network for relia
 !!! note
     If you are using a VH-109 radio (2025 and later, excluding China and Taiwan), prefer tethering to the dedicated DS Ethernet port instead of using port forwarding.
 
-If you need to view an Ethernet-connected vision device while tethered over roboRIO USB, WPILib `PortForwarder` can forward the PhotonVision web UI port.
+To view an Ethernet-connected vision device while tethered over roboRIO USB, use WPILib `PortForwarder` to forward the PhotonVision web UI port.
 
 ```java
 PortForwarder.add(5800, "photonvision.local", 5800);

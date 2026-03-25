@@ -12,7 +12,7 @@ When LumaSwitch is powered on, all ethernet status lights will blink once to ind
 
 LumaSwitch has one port that does not support PoE on the same side as the power input. This port is recommended to be used to connect LumaSwitch to the robot radio. 
 
-The other 4 ports can also be safely used with non-PoE devices, simply make sure there is no fuse installed for the ports you are using, and PoE output will be disabled for that port.
+The remaining four ports can also be used with non-PoE devices. Ensure that no fuse is installed for the ports being used in this manner; PoE output will be disabled for those ports.
 
 ## Powering Passive PoE Devices
 LumaSwitch can provide passive, unregulated PoE to up to 4 supported devices simultaneously, such as Luma P1. Enable PoE output on the desired ports by installing a 5A fuse for each port you would like to power a device with. The red "PoE" indicator LED will illuminate if PoE is being delivered and the installed fuse is good.
