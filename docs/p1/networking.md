@@ -23,7 +23,7 @@ This section covers the recommended and alternative ways to power and connect yo
 
 The simplest and most reliable method of wiring P1 is by utilizing the Vivid Hosting radio or [LumaSwitch](https://luma.vision/products/lumaswitch)'s PoE output.
 
-![Radio PoE Diagram](../../Radio%20PoE%20Diagram.png){width="600"}
+![Radio PoE Diagram](../assets/p1/diagrams/Radio%20PoE%20Diagram.png){width="600"}
 
 **Radio:**
 
@@ -47,7 +47,7 @@ For full switch specifications, mounting, and wiring details, see the [LumaSwitc
 
 If you do not wish to use PoE from the radio or would like to connect P1 to an ethernet switch, you can still power P1 via PoE by using a PoE injector or custom PoE cable. Use a 5A or 10A fuse in the slot powering the PoE injector or cable.
 
-![PoE Diagram](../../PoE%20Diagram.png){width="600"}
+![PoE Diagram](../assets/p1/diagrams/PoE%20Diagram.png){width="600"}
 
 !!! warning
     When powering P1 via PoE, ensure you are using an ethernet cable that uses at least 24 AWG wire for each conductor. DO NOT use "low profile" ethernet cable.
@@ -58,7 +58,7 @@ If you do not wish to use PoE from the radio or would like to connect P1 to an e
 
 If not using PoE, or you would like to have redundant power, P1 can also be powered through the Weidmuller connector next to the ethernet port. Use a 5A or 10A fuse in the slot powering the device.
 
-![Weidmuller Diagram](../../Weidmuller%20Diagram.png){width="600"}
+![Weidmuller Diagram](../assets/p1/diagrams/Weidmuller%20Diagram.png){width="600"}
 
 ---
 

@@ -8,7 +8,7 @@
 
 The **Luma P1** is an affordable, FRC-focused vision co-processor and camera system released for the **2026 FRC REBUILT season**. It is designed to provide FRC teams with a capable, budget-friendly vision solution. 
 
-![Luma P1](/P1%20Cover.jpg){width="700"}
+![Luma P1](../assets/p1/P1%20Cover.jpg){width="700"}
 
 ## Hardware Specs
 * Reliable Buck-Boost power stage
