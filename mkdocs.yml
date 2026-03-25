@@ -94,6 +94,7 @@ plugins:
 nav:
   - Home: index.md
   - Luma:
+      - Product Overview: guides/luma.md
       - P1:
           - Overview: p1/overview.md
           - Prerequisites: p1/prerequisites.md
@@ -102,11 +103,11 @@ nav:
           - Calibration: p1/calibration.md
           - Parts: p1/parts.md
           - Troubleshooting: p1/troubleshooting.md
-          - LumaSwitch:
-            - Overview: guides/lumaswitch/overview.md
-            - Mounting: guides/lumaswitch/mounting.md
-            - Wiring: guides/lumaswitch/wiring.md
-            - Troubleshooting: guides/lumaswitch/troubleshooting.md
+      - LumaSwitch:
+        - Overview: guides/lumaswitch/overview.md
+        - Mounting: guides/lumaswitch/mounting.md
+        - Wiring: guides/lumaswitch/wiring.md
+        - Troubleshooting: guides/lumaswitch/troubleshooting.md
   - LoggedTalonFX:
       - Placeholder: loggedtalonfx/placeholder.md
   - Contributing: contributing.md
