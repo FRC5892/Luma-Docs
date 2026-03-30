@@ -19,7 +19,7 @@ Five port passive PoE ethernet switch built specifically for the needs of FRC ro
     * LED indicator when PoE is active
     * Remove fuse to disable PoE
 * Versatile mounting
-    * #10 through holes on 0.5" pitch
+    * 10 through holes on 0.5" pitch
     * Zip-tie notches
 * Lightweight, less than 0.25lb with fuses installed
 
